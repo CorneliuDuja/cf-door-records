@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-ng-controller="dayController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Day(s): <b>{{personName}}</b></div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+
+                <th><b>Date</b></th>
+
+                <th><b>First In</b></th>
+
+                <th><b>Last Out</b></th>
+
+                <th><b>Duration</b></th>
+
+                <th><b>Deviation</b></th>
+
+                <th><b>Trusted</b></th>
+
+                <th><b>Doubtful</b></th>
+
+                <th><b>Reliability</b></th>
+
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="day in days">
+            <tr>
+
+                <td title="Date"><a href="#/event/{{day.Person.Name}}/{{day.dateFrom}}/{{day.dateTo}}/{{weekdays}}">{{day.Date}}</a></td>
+
+                <td title="First In">{{day.FirstIn}}</td>
+
+                <td title="Last Out">{{day.LastOut}}</td>
+
+                <td title="Duration">{{day.Duration | shortTimeFilter}}</td>
+
+                <td title="Deviation">{{day.Deviation | shortTimeFilter}}</td>
+
+                <td title="Trusted">{{day.Trusted}}</td>
+
+                <td title="Doubtful">{{day.Doubtful}}</td>
+
+                <td title="Reliability">{{day.Reliability | number:2}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

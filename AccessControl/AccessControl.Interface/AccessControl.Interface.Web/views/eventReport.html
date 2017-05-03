@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-controller="eventController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Event(s):</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+
+                <th><b>Person Name</b></th>
+
+                <th><b>Registered On</b></th>
+
+                <th><b>Point Action Type</b></th>
+
+                <th><b>Point Name</b></th>
+
+                <th><b>Interval</b></th>
+
+                <th><b>Duration</b></th>
+
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="event in events">
+            <tr data-ng-style="event.IsEnforced == true && {'color':'red'} || event.IsObsolete == true && {'color':'orange'}">
+
+                <td title="Person Name">{{event.Person.Name}}</td>
+
+                <td title="Registered On">{{event.RegisteredOn}}</td>
+
+                <td title="Point Action Type">{{event.Point.PointActionType}}</td>
+
+                <td title="Point Name">{{event.Point.Name}}</td>
+
+                <td title="Interval">{{event.Interval}}</td>
+
+                <td title="Interval">{{event.Duration | shortTimeFilter}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

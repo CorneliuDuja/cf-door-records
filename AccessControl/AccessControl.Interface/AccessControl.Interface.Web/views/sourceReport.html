@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html data-ng-controller="sourceController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Source(s):</div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+
+                <th><b>Date</b></th>
+
+                <th><b>Source File Type</b></th>
+
+                <th><b>Loaded On</b></th>
+
+                <th><b>Extracted On</b></th>
+
+                <th><b>Transformed On</b></th>
+
+                <th><b>Analysed On</b></th>
+
+                <th><b>Length</b></th>
+
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="source in sources">
+            <tr>
+
+                <td title="Date">{{source.Date}}</td>
+
+                <td title="Source File Type">{{source.SourceFileType}}</td>
+
+                <td title="Loaded On">{{source.LoadedOn}}</td>
+
+                <td title="Extracted On">{{source.ExtractedOn}}</td>
+
+                <td title="Transformed On">{{source.TransformedOn}}</td>
+
+                <td title="Analysed On">{{source.AnalysedOn}}</td>
+
+                <td title="Length">{{source.Length}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

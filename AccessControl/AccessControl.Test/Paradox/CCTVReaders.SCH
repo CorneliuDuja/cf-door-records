@@ -1,0 +1,2 @@
+FIELD,ReaderID,Integer,0,NOT_REQUIRED
+FIELD,IsAssignedToCCTV,Boolean,0,NOT_REQUIRED

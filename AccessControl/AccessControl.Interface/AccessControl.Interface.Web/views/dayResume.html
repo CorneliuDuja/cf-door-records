@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html data-ng-controller="dayResumeController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>
+        <select class="btn btn-default btn-xs dropdown-toggle" data-ng-model="dateIntervalType" data-ng-options="item for item in dateIntervalTypes" data-ng-change="setDateIntervalType()"></select>
+        <input type="date" data-ng-model="dateFrom" format-date />
+        <input type="date" data-ng-model="dateTo" format-date />
+        <isteven-multi-select
+            input-model="weekdaysInput"
+            output-model="weekdaysOutput"
+            button-label="name"
+            item-label="name"
+            tick-property="ticked"
+            on-reset="setWeekdays(true)"
+            on-item-click="getWeekdays()"
+            on-select-all="weekdays = 127"
+            on-select-none="weekdays = 0">
+        </isteven-multi-select>
+        <a href="#/dayResume/{{dateIntervalType}}/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}/{{weekdays}}/{{columns}}">Resume</a>
+        <a href="#/dayReport/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}/{{weekdays}}">Days</a>
+        <a href="#/eventReport/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}/{{weekdays}}">Events</a>
+        <a href="#/sourceReport/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}/{{weekdays}}">Sources</a>
+        <a href="#/personReport/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}">Persons</a>
+        <a href="#/pointReport/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}">Points</a>
+    </div>
+    <isteven-multi-select
+        input-model="columnsInput"
+        output-model="columnsOutput"
+        button-label="name"
+        item-label="name"
+        tick-property="ticked"
+        on-reset="setColumns(true)"
+        on-item-click="getColumns()"
+        on-select-all="columns = '1'.repeat(27)"
+        on-select-none="columns = '0'.repeat(27)">
+    </isteven-multi-select>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th data-ng-repeat="column in columnsOutput"><b>{{column.name}}</b></th>
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="dayResume in dayResumes">
+            <tr>
+
+                <td title="Person Name" data-ng-hide="hideColumn(0)">
+                    <a data-ng-style="dayResume.Person.IsInside == true && {'color':'green'}" 
+                        href="#/day/{{dayResume.Person.Name}}/{{formatDate(dateFrom)}}/{{formatDate(dateTo)}}/{{weekdays}}">{{dayResume.Person.Name}}</a>
+                </td>
+
+                <td title="Days" data-ng-hide="hideColumn(1)">{{dayResume.Days}}</td>
+
+                <td title="Min First In" data-ng-hide="hideColumn(2)">{{dayResume.MinFirstIn | shortTimeFilter}}</td>
+                <td title="Max First In" data-ng-hide="hideColumn(3)">{{dayResume.MaxFirstIn | shortTimeFilter}}</td>
+                <td title="Avg First In" data-ng-hide="hideColumn(4)">{{dayResume.AvgFirstIn | shortTimeFilter}}</td>
+
+                <td title="Min Last Out" data-ng-hide="hideColumn(5)">{{dayResume.MinLastOut | shortTimeFilter}}</td>
+                <td title="Max Last Out" data-ng-hide="hideColumn(6)">{{dayResume.MaxLastOut | shortTimeFilter}}</td>
+                <td title="Avg Last Out" data-ng-hide="hideColumn(7)">{{dayResume.AvgLastOut | shortTimeFilter}}</td>
+
+                <td title="Min Duration" data-ng-hide="hideColumn(8)">{{dayResume.MinDuration | longTimeFilter}}</td>
+                <td title="Max Duration" data-ng-hide="hideColumn(9)">{{dayResume.MaxDuration | longTimeFilter}}</td>
+                <td title="Avg Duration" data-ng-hide="hideColumn(10)">{{dayResume.AvgDuration | longTimeFilter}}</td>
+                <td title="Sum Duration" data-ng-hide="hideColumn(11)">{{dayResume.SumDuration | longTimeFilter}}</td>
+
+                <td title="Min Deviation" data-ng-hide="hideColumn(12)">{{dayResume.MinDeviation | longTimeFilter}}</td>
+                <td title="Max Deviation" data-ng-hide="hideColumn(13)">{{dayResume.MaxDeviation | longTimeFilter}}</td>
+                <td title="Avg Deviation" data-ng-hide="hideColumn(14)">{{dayResume.AvgDeviation | longTimeFilter}}</td>
+                <td title="Sum Deviation" data-ng-hide="hideColumn(15)">{{dayResume.SumDeviation | longTimeFilter}}</td>
+
+                <td title="Min Trusted" data-ng-hide="hideColumn(16)">{{dayResume.MinTrusted}}</td>
+                <td title="Max Trusted" data-ng-hide="hideColumn(17)">{{dayResume.MaxTrusted}}</td>
+                <td title="Avg Trusted" data-ng-hide="hideColumn(18)">{{dayResume.AvgTrusted | number:2}}</td>
+                <td title="Sum Trusted" data-ng-hide="hideColumn(19)">{{dayResume.SumTrusted}}</td>
+
+                <td title="Min Doubtful" data-ng-hide="hideColumn(20)">{{dayResume.MinDoubtful}}</td>
+                <td title="Max Doubtful" data-ng-hide="hideColumn(21)">{{dayResume.MaxDoubtful}}</td>
+                <td title="Avg Doubtful" data-ng-hide="hideColumn(22)">{{dayResume.AvgDoubtful | number:2}}</td>
+                <td title="Sum Doubtful" data-ng-hide="hideColumn(23)">{{dayResume.SumDoubtful}}</td>
+
+                <td title="Min Reliability" data-ng-hide="hideColumn(24)">{{dayResume.MinReliability | number:2}}</td>
+                <td title="Max Reliability" data-ng-hide="hideColumn(25)">{{dayResume.MaxReliability | number:2}}</td>
+                <td title="Avg Reliability" data-ng-hide="hideColumn(26)">{{dayResume.AvgReliability | number:2}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

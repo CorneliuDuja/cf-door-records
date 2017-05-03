@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF3C3AD2-2263-46E9-9795-AE5A2834380A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AccessControl.Data.MsSql2012</RootNamespace>
+    <AssemblyName>AccessControl.Data.MsSql2012</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModelData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AccessControl.Business\AccessControl.Business.Engine\AccessControl.Business.Engine.csproj">
+      <Project>{4540ce80-bd98-44e1-bf62-12c253fb0918}</Project>
+      <Name>AccessControl.Business.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AccessControl.Business\AccessControl.Business.Library\AccessControl.Business.Library.csproj">
+      <Project>{cb567ed7-f298-4623-a481-ad5050318a3b}</Project>
+      <Name>AccessControl.Business.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Script\Batch\AccessControl.sql" />
+    <Content Include="Script\Batch\EXEC sp_refreshview.sql" />
+    <Content Include="Script\Batch\Person Merge.sql" />
+    <Content Include="Script\Batch\Person Schedule.sql" />
+    <Content Include="Script\Batch\Refactoring DATETIMEOFFSET.sql" />
+    <Content Include="Script\Programmability\Functions\Scalar-valued Functions\[Common].[Bool.Scalar].sql" />
+    <Content Include="Script\Programmability\Functions\Scalar-valued Functions\[Common].[DateTimeOffset.Scalar].sql" />
+    <Content Include="Script\Programmability\Functions\Scalar-valued Functions\[State].[Schedule.Scalar].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Common].[AmountInterval.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Common].[DateInterval.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Common].[Entity.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Common].[Guid.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Common].[Pager.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Common].[String.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Feed].[Event.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Feed].[Person.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Feed].[Point.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Feed].[Source.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[Slice].[Day.Table].sql" />
+    <Content Include="Script\Programmability\Functions\Table-valued Functions\[State].[Schedule.Table].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Common].[GenericInput].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Common].[Error.Throw].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Event.Action].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Event.Filter].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Person.Action].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Point.Action].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Point.Filter].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Source.Filter].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Source.Action].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Feed].[Person.Filter].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Slice].[Day.Action].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[Slice].[Day.Filter].sql" />
+    <Content Include="Script\Programmability\Stored Procedures\[State].[Schedule.Action].sql" />
+    <Content Include="Script\Views\[Feed].[Event.View].sql" />
+    <Content Include="Script\Views\[Slice].[Day.View].sql" />
+    <Content Include="Script\Views\[State].[Schedule.View].sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Backup\AccessControl2012.bak" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

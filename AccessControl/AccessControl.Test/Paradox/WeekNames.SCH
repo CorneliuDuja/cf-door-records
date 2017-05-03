@@ -1,0 +1,5 @@
+INDEX,PRIMARY_KEY,3,WeekdayID
+INDEX,WeekDName,18,WeekdayName
+FIELD,WeekdayID,AutoInc,0,NOT_REQUIRED
+FIELD,Weekday,Integer,0,REQUIRED
+FIELD,WeekdayName,String,16,REQUIRED

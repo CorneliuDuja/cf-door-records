@@ -1,0 +1,3 @@
+FIELD,ReaderID,Integer,0,NOT_REQUIRED
+FIELD,EventCode,Integer,0,NOT_REQUIRED
+FIELD,CCTVDevAction,Integer,0,NOT_REQUIRED

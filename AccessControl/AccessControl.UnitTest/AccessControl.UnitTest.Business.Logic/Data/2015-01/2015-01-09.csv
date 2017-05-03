@@ -1,0 +1,202 @@
+#EVENTS FILE - PR Master v4.5.6.875
+#FILEDEF=09-01-2015   00:00:03   Friday;38;3B;FALSE
+#COLUMN0=TRUE;Unique event ID;0
+#COLUMN1=TRUE;Date;0
+#COLUMN2=TRUE;Time;0
+#COLUMN3=TRUE;Event code;0
+#COLUMN4=TRUE;Event name;0
+#COLUMN5=TRUE;User ID;0
+#COLUMN6=TRUE;T&A ID;0
+#COLUMN7=TRUE;Comment 1;0
+#COLUMN8=TRUE;Comment 2;0
+#COLUMN9=TRUE;Comment 3;0
+#COLUMN10=TRUE;Comment 4;0
+#COLUMN11=TRUE;User name;0
+#COLUMN12=TRUE;Access point ID;0
+#COLUMN13=TRUE;Access point name;0
+#COLUMN14=TRUE;Zone ID;0
+#COLUMN15=TRUE;Zone;0
+#COLUMN16=TRUE;Group ID;0
+#COLUMN17=TRUE;Group name;0
+#COLUMN18=TRUE;Event type;0
+#COLUMN19=TRUE;T&A mode code;0
+#COLUMN20=TRUE;T&A mode name;0
+#COLUMN21=TRUE;IN1 Option code;0
+#COLUMN22=TRUE;IN2 Option code;0
+#COLUMN23=TRUE;IN3 Option code;0
+#COLUMN24=TRUE;IN1 Message;0
+#COLUMN25=TRUE;IN2 Message;0
+#COLUMN26=TRUE;IN3 Message;0
+#COLUMN27=TRUE;T/A Mode;0
+#COLUMN28=TRUE;User GUID;0
+#COLUMN29=TRUE;T&A event parameter 1 code;0
+#COLUMN30=TRUE;T&A event parameter 1 name;0
+#COLUMN31=TRUE;T&A event parameter 2 code;0
+#COLUMN32=TRUE;T&A event parameter 2 name;0
+#COLUMN33=TRUE;Last Name;0
+#COLUMN34=TRUE;First Name;0
+#COLUMN35=TRUE;Card code (HEX);0
+#COLUMN36=TRUE;Card code (DEC);0
+#COLUMN37=TRUE;ReaderName_;0
+50836;2015-01-09;00:00:00;400;[400]: Clock synchronized;318767104;;;;;;Remote command;268435456;CPR;;;;;0;-1;;0;0;4;;;;-1;;;;;;;;;;;
+50839;2015-01-09;05:51:20;1;[001]: Access granted;148;;;;;;Elena Golovco 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{FF7C6C82-D55C-4F09-A58E-DC5C4416C536};1;OUT;0;PRIV;1;Elena Golovco;28025628BE;171837892798;Second_door_input;
+50842;2015-01-09;05:52:00;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+50845;2015-01-09;05:52:40;1;[001]: Access granted;179;;;;;;109 Paznic;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Second_door_output;
+50848;2015-01-09;05:53:00;1;[001]: Access granted;148;;;;;;Elena Golovco 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{FF7C6C82-D55C-4F09-A58E-DC5C4416C536};1;OUT;0;PRIV;1;Elena Golovco;28025628BE;171837892798;Second_door_input;
+50851;2015-01-09;05:54:20;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+50854;2015-01-09;06:14:20;400;[400]: Clock synchronized;318767104;;;;;;Remote command;268435456;CPR;;;;;0;-1;;0;0;4;;;;-1;;;;;;;;;;;
+50857;2015-01-09;06:50:40;1;[001]: Access granted;148;;;;;;Elena Golovco 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{FF7C6C82-D55C-4F09-A58E-DC5C4416C536};1;OUT;0;PRIV;1;Elena Golovco;28025628BE;171837892798;Second_door_output;
+50860;2015-01-09;06:50:50;1;[001]: Access granted;148;;;;;;Elena Golovco 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{FF7C6C82-D55C-4F09-A58E-DC5C4416C536};1;OUT;0;PRIV;1;Elena Golovco;28025628BE;171837892798;Second_door_output;
+50863;2015-01-09;07:56:30;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+50866;2015-01-09;07:57:50;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+50869;2015-01-09;08:02:20;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+50872;2015-01-09;08:04:00;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+50875;2015-01-09;08:45:10;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+50878;2015-01-09;08:45:50;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+50881;2015-01-09;08:46:50;1;[001]: Access granted;168;;;;;;Mihail Stratu 2;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A83C14E-33CD-4A4B-B2A9-3199783EF590};1;OUT;0;PRIV;2;Mihail Stratu;70003D414A;481040351562;Second_door_input;
+50884;2015-01-09;08:57:40;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_input;
+50887;2015-01-09;09:07:50;1;[001]: Access granted;181;;;;;;Dan Butnaru 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{79D21065-AAC4-4D0D-BC9D-61BE02F560DF};0;IN;0;PRIV;1;Dan Butnaru;510024597E;347894733182;Center_input;
+50890;2015-01-09;09:08:00;1;[001]: Access granted;199;;;;;;1 Palii Diana;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};0;IN;0;PRIV;Palii Diana;1;510019CC77;347894041719;Center_input;
+50893;2015-01-09;09:08:00;1;[001]: Access granted;196;;;;;;Victor Bulatov 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{9E9439F7-0DC0-4517-BDF8-D6FC5CEC76AF};0;IN;0;PRIV;1;Victor Bulatov;510018F7CB;347893987275;Center_input;
+50896;2015-01-09;09:08:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+50899;2015-01-09;09:13:10;1;[001]: Access granted;118;;;;;;Anastasia Sersun 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{67B80DA7-8887-4187-A2DD-24AC9C7608F2};1;OUT;0;PRIV;1;Anastasia Sersun;28017F283C;171823802428;Second_door_input;
+50902;2015-01-09;09:13:10;1;[001]: Access granted;188;;;;;;Denis babii 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{1B786B99-FE03-4A0C-A714-5DC84CB3A756};1;OUT;0;PRIV;1;Denis babii;5100196F45;347894017861;Second_door_input;
+50905;2015-01-09;09:15:20;1;[001]: Access granted;170;;;;;;Oleg Tofan 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{4F273042-FC2B-47F4-91B5-21A1B63CF92E};1;OUT;0;PRIV;1;Oleg Tofan;510025231B;347894784795;Second_door_input;
+50908;2015-01-09;09:18:30;1;[001]: Access granted;140;;;;;;Sergiu Morari 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{38BE6B03-BCE2-49D2-8372-45D910DDC779};1;OUT;0;PRIV;1;Sergiu Morari;5100192E17;347894001175;Second_door_input;
+50911;2015-01-09;09:18:40;1;[001]: Access granted;140;;;;;;Sergiu Morari 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{38BE6B03-BCE2-49D2-8372-45D910DDC779};1;OUT;0;PRIV;1;Sergiu Morari;5100192E17;347894001175;Second_door_input;
+50914;2015-01-09;09:31:00;1;[001]: Access granted;130;;;;;;Vladimir Gusac 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{A67DCC34-DD13-4BDC-89A5-68D9D63629E7};0;IN;0;PRIV;1;Vladimir Gusac;2802564CBD;171837902013;Center_input;
+50917;2015-01-09;09:34:20;1;[001]: Access granted;137;;;;;;Alexandr Tumanov 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9066E4DF-7579-4316-9250-9635D4FDEA94};1;OUT;0;PRIV;1;Alexandr Tumanov;2802562C1F;171837893663;Second_door_input;
+50920;2015-01-09;09:38:50;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_input;
+50923;2015-01-09;09:52:30;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+50926;2015-01-09;09:56:30;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+50929;2015-01-09;10:01:00;1;[001]: Access granted;132;;;;;;Mihail Iurco 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{6D09427E-4C9C-43B5-AFFD-8E2799276469};0;IN;0;PRIV;1;Mihail Iurco;51002454CF;347894731983;Center_input;
+50932;2015-01-09;10:10:00;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;1002;Second_door_input;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_input;
+50935;2015-01-09;10:14:10;1;[001]: Access granted;185;;;;;;Natalia Cardauc 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{9A0D9E5C-BAE0-4BD2-AA83-21A869BE23CF};0;IN;0;PRIV;1;Natalia Cardauc;5100244B61;347894729569;Center_input;
+50938;2015-01-09;10:15:00;1;[001]: Access granted;167;;;;;;Andrei Brajnicov 2;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E342990D-F31D-4F5B-B00C-5A2A2C31CB80};1;OUT;0;PRIV;2;Andrei Brajnicov;565AFDB7E6;370893764582;Second_door_input;
+50941;2015-01-09;10:16:10;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};0;IN;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Center_input;
+50944;2015-01-09;10:24:10;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_output;
+50947;2015-01-09;10:26:20;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_input;
+50950;2015-01-09;10:26:40;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_output;
+50953;2015-01-09;10:26:50;1;[001]: Access granted;126;;;;;;Vitalie Stelea 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F3338365-FF20-40B2-96AE-2D5AF4BCBBF3};1;OUT;0;PRIV;1;Vitalie Stelea;5100191244;347893994052;Second_door_input;
+50956;2015-01-09;10:27:40;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_input;
+50959;2015-01-09;10:29:50;1;[001]: Access granted;138;;;;;;Anton Straista 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{D633A843-253C-40AE-A5CC-CEDBA258D60E};0;IN;0;PRIV;1;Anton Straista;2802562DC8;171837894088;Center_input;
+50962;2015-01-09;10:31:30;1;[001]: Access granted;170;;;;;;Oleg Tofan 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{4F273042-FC2B-47F4-91B5-21A1B63CF92E};1;OUT;0;PRIV;1;Oleg Tofan;510025231B;347894784795;Second_door_output;
+50965;2015-01-09;10:40:20;1;[001]: Access granted;170;;;;;;Oleg Tofan 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{4F273042-FC2B-47F4-91B5-21A1B63CF92E};1;OUT;0;PRIV;1;Oleg Tofan;510025231B;347894784795;Second_door_input;
+50968;2015-01-09;10:44:20;1;[001]: Access granted;125;;;;;;Corneliu Duja 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{216EFB78-9AC3-419A-A821-5D6045B435B6};0;IN;0;PRIV;1;Corneliu Duja;565B2466ED;370896299757;Center_input;
+50971;2015-01-09;10:47:40;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_input;
+50974;2015-01-09;10:58:20;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+50977;2015-01-09;11:01:30;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_input;
+50980;2015-01-09;11:51:10;1;[001]: Access granted;169;;;;;;Igor Covganet 2;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{EA92C7AC-CC57-474F-8C87-EB079F1CBD47};0;IN;0;PRIV;2;Igor Covganet;565A1B666C;370878932588;Center_input;
+50983;2015-01-09;12:09:00;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+50986;2015-01-09;12:26:40;1;[001]: Access granted;126;;;;;;Vitalie Stelea 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F3338365-FF20-40B2-96AE-2D5AF4BCBBF3};1;OUT;0;PRIV;1;Vitalie Stelea;5100191244;347893994052;Second_door_output;
+50989;2015-01-09;12:26:50;1;[001]: Access granted;140;;;;;;Sergiu Morari 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{38BE6B03-BCE2-49D2-8372-45D910DDC779};1;OUT;0;PRIV;1;Sergiu Morari;5100192E17;347894001175;Second_door_output;
+50992;2015-01-09;12:26:50;1;[001]: Access granted;167;;;;;;Andrei Brajnicov 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E342990D-F31D-4F5B-B00C-5A2A2C31CB80};1;OUT;0;PRIV;2;Andrei Brajnicov;565AFDB7E6;370893764582;Second_door_output;
+50995;2015-01-09;12:27:40;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+50998;2015-01-09;12:28:40;1;[001]: Access granted;137;;;;;;Alexandr Tumanov 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9066E4DF-7579-4316-9250-9635D4FDEA94};1;OUT;0;PRIV;1;Alexandr Tumanov;2802562C1F;171837893663;Second_door_output;
+51001;2015-01-09;12:28:40;1;[001]: Access granted;130;;;;;;Vladimir Gusac 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{A67DCC34-DD13-4BDC-89A5-68D9D63629E7};1;OUT;0;PRIV;1;Vladimir Gusac;2802564CBD;171837902013;Second_door_output;
+51004;2015-01-09;12:29:00;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+51007;2015-01-09;12:31:20;1;[001]: Access granted;118;;;;;;Anastasia Sersun 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{67B80DA7-8887-4187-A2DD-24AC9C7608F2};1;OUT;0;PRIV;1;Anastasia Sersun;28017F283C;171823802428;Second_door_output;
+51010;2015-01-09;12:31:30;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_output;
+51013;2015-01-09;12:31:40;1;[001]: Access granted;181;;;;;;Dan Butnaru 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{79D21065-AAC4-4D0D-BC9D-61BE02F560DF};1;OUT;0;PRIV;1;Dan Butnaru;510024597E;347894733182;Second_door_output;
+51016;2015-01-09;12:32:00;1;[001]: Access granted;168;;;;;;Mihail Stratu 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A83C14E-33CD-4A4B-B2A9-3199783EF590};1;OUT;0;PRIV;2;Mihail Stratu;70003D414A;481040351562;Second_door_output;
+51019;2015-01-09;12:32:00;1;[001]: Access granted;168;;;;;;Mihail Stratu 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A83C14E-33CD-4A4B-B2A9-3199783EF590};1;OUT;0;PRIV;2;Mihail Stratu;70003D414A;481040351562;Second_door_output;
+51022;2015-01-09;12:32:10;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_output;
+51025;2015-01-09;12:40:50;1;[001]: Access granted;138;;;;;;Anton Straista 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{D633A843-253C-40AE-A5CC-CEDBA258D60E};1;OUT;0;PRIV;1;Anton Straista;2802562DC8;171837894088;Center_output;
+51028;2015-01-09;12:51:00;1;[001]: Access granted;188;;;;;;Denis babii 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{1B786B99-FE03-4A0C-A714-5DC84CB3A756};1;OUT;0;PRIV;1;Denis babii;5100196F45;347894017861;Second_door_output;
+51031;2015-01-09;12:51:00;1;[001]: Access granted;199;;;;;;1 Palii Diana;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_output;
+51034;2015-01-09;12:51:10;1;[001]: Access granted;196;;;;;;Victor Bulatov 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9E9439F7-0DC0-4517-BDF8-D6FC5CEC76AF};1;OUT;0;PRIV;1;Victor Bulatov;510018F7CB;347893987275;Second_door_output;
+51037;2015-01-09;12:51:20;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_output;
+51040;2015-01-09;13:10:30;1;[001]: Access granted;167;;;;;;Andrei Brajnicov 2;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{E342990D-F31D-4F5B-B00C-5A2A2C31CB80};0;IN;0;PRIV;2;Andrei Brajnicov;565AFDB7E6;370893764582;Center_input;
+51043;2015-01-09;13:10:40;1;[001]: Access granted;137;;;;;;Alexandr Tumanov 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9066E4DF-7579-4316-9250-9635D4FDEA94};1;OUT;0;PRIV;1;Alexandr Tumanov;2802562C1F;171837893663;Second_door_input;
+51046;2015-01-09;13:10:40;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_input;
+51049;2015-01-09;13:12:50;1;[001]: Access granted;138;;;;;;Anton Straista 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{D633A843-253C-40AE-A5CC-CEDBA258D60E};0;IN;0;PRIV;1;Anton Straista;2802562DC8;171837894088;Center_input;
+51052;2015-01-09;13:17:20;1;[001]: Access granted;181;;;;;;Dan Butnaru 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{79D21065-AAC4-4D0D-BC9D-61BE02F560DF};0;IN;0;PRIV;1;Dan Butnaru;510024597E;347894733182;Center_input;
+51055;2015-01-09;13:18:50;1;[001]: Access granted;118;;;;;;Anastasia Sersun 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{67B80DA7-8887-4187-A2DD-24AC9C7608F2};1;OUT;0;PRIV;1;Anastasia Sersun;28017F283C;171823802428;Second_door_input;
+51058;2015-01-09;13:18:50;1;[001]: Access granted;132;;;;;;Mihail Iurco 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{6D09427E-4C9C-43B5-AFFD-8E2799276469};1;OUT;0;PRIV;1;Mihail Iurco;51002454CF;347894731983;Center_output;
+51061;2015-01-09;13:18:50;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_input;
+51064;2015-01-09;13:19:40;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_input;
+51067;2015-01-09;13:27:10;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_output;
+51070;2015-01-09;13:27:10;1;[001]: Access granted;168;;;;;;Mihail Stratu 2;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{9A83C14E-33CD-4A4B-B2A9-3199783EF590};0;IN;0;PRIV;2;Mihail Stratu;70003D414A;481040351562;Center_input;
+51073;2015-01-09;13:28:10;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+51076;2015-01-09;13:28:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+51079;2015-01-09;13:30:20;1;[001]: Access granted;126;;;;;;Vitalie Stelea 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F3338365-FF20-40B2-96AE-2D5AF4BCBBF3};1;OUT;0;PRIV;1;Vitalie Stelea;5100191244;347893994052;Second_door_input;
+51082;2015-01-09;13:30:30;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_input;
+51085;2015-01-09;13:30:30;1;[001]: Access granted;140;;;;;;Sergiu Morari 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{38BE6B03-BCE2-49D2-8372-45D910DDC779};1;OUT;0;PRIV;1;Sergiu Morari;5100192E17;347894001175;Second_door_input;
+51088;2015-01-09;13:33:20;1;[001]: Access granted;188;;;;;;Denis babii 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{1B786B99-FE03-4A0C-A714-5DC84CB3A756};1;OUT;0;PRIV;1;Denis babii;5100196F45;347894017861;Second_door_input;
+51091;2015-01-09;13:33:30;1;[001]: Access granted;199;;;;;;1 Palii Diana;1002;Second_door_input;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_input;
+51094;2015-01-09;13:33:30;1;[001]: Access granted;196;;;;;;Victor Bulatov 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9E9439F7-0DC0-4517-BDF8-D6FC5CEC76AF};1;OUT;0;PRIV;1;Victor Bulatov;510018F7CB;347893987275;Second_door_input;
+51097;2015-01-09;13:33:40;1;[001]: Access granted;196;;;;;;Victor Bulatov 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9E9439F7-0DC0-4517-BDF8-D6FC5CEC76AF};1;OUT;0;PRIV;1;Victor Bulatov;510018F7CB;347893987275;Second_door_input;
+51100;2015-01-09;13:34:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+51103;2015-01-09;13:40:50;1;[001]: Access granted;125;;;;;;Corneliu Duja 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{216EFB78-9AC3-419A-A821-5D6045B435B6};1;OUT;0;PRIV;1;Corneliu Duja;565B2466ED;370896299757;Second_door_output;
+51106;2015-01-09;13:41:30;1;[001]: Access granted;130;;;;;;Vladimir Gusac 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{A67DCC34-DD13-4BDC-89A5-68D9D63629E7};0;IN;0;PRIV;1;Vladimir Gusac;2802564CBD;171837902013;Center_input;
+51109;2015-01-09;13:59:20;1;[001]: Access granted;132;;;;;;Mihail Iurco 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{6D09427E-4C9C-43B5-AFFD-8E2799276469};0;IN;0;PRIV;1;Mihail Iurco;51002454CF;347894731983;Center_input;
+51112;2015-01-09;14:11:20;1;[001]: Access granted;185;;;;;;Natalia Cardauc 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A0D9E5C-BAE0-4BD2-AA83-21A869BE23CF};1;OUT;0;PRIV;1;Natalia Cardauc;5100244B61;347894729569;Second_door_output;
+51115;2015-01-09;14:11:30;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_input;
+51118;2015-01-09;14:12:40;1;[001]: Access granted;169;;;;;;Igor Covganet 2;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{EA92C7AC-CC57-474F-8C87-EB079F1CBD47};1;OUT;0;PRIV;2;Igor Covganet;565A1B666C;370878932588;Center_output;
+51121;2015-01-09;14:18:20;1;[001]: Access granted;125;;;;;;Corneliu Duja 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{216EFB78-9AC3-419A-A821-5D6045B435B6};0;IN;0;PRIV;1;Corneliu Duja;565B2466ED;370896299757;Center_input;
+51124;2015-01-09;14:25:10;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_output;
+51127;2015-01-09;14:25:20;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+51130;2015-01-09;14:28:00;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_input;
+51133;2015-01-09;14:34:10;1;[001]: Access granted;177;;;;;;Petru Hincu 2;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{AF01ED7B-24E5-4D3E-8EA9-273EEA9B52B6};1;OUT;0;PRIV;2;Petru Hincu;565AFE593E;370893805886;Second_door_input;
+51136;2015-01-09;14:51:00;1;[001]: Access granted;185;;;;;;Natalia Cardauc 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{9A0D9E5C-BAE0-4BD2-AA83-21A869BE23CF};0;IN;0;PRIV;1;Natalia Cardauc;5100244B61;347894729569;Center_input;
+51139;2015-01-09;14:51:00;1;[001]: Access granted;169;;;;;;Igor Covganet 2;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{EA92C7AC-CC57-474F-8C87-EB079F1CBD47};0;IN;0;PRIV;2;Igor Covganet;565A1B666C;370878932588;Center_input;
+51142;2015-01-09;14:54:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+51145;2015-01-09;14:58:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+51148;2015-01-09;15:18:50;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_output;
+51151;2015-01-09;15:40:20;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+51154;2015-01-09;15:42:10;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_input;
+51157;2015-01-09;15:43:20;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_input;
+51160;2015-01-09;15:49:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+51163;2015-01-09;15:58:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+51166;2015-01-09;16:43:40;1;[001]: Access granted;185;;;;;;Natalia Cardauc 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A0D9E5C-BAE0-4BD2-AA83-21A869BE23CF};1;OUT;0;PRIV;1;Natalia Cardauc;5100244B61;347894729569;Second_door_output;
+51169;2015-01-09;16:44:50;1;[001]: Access granted;185;;;;;;Natalia Cardauc 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A0D9E5C-BAE0-4BD2-AA83-21A869BE23CF};1;OUT;0;PRIV;1;Natalia Cardauc;5100244B61;347894729569;Second_door_input;
+51172;2015-01-09;16:54:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+51175;2015-01-09;17:03:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+51178;2015-01-09;17:06:00;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+51181;2015-01-09;17:07:10;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_output;
+51184;2015-01-09;17:08:30;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_input;
+51187;2015-01-09;17:59:40;1;[001]: Access granted;188;;;;;;Denis babii 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{1B786B99-FE03-4A0C-A714-5DC84CB3A756};1;OUT;0;PRIV;1;Denis babii;5100196F45;347894017861;Second_door_output;
+51190;2015-01-09;17:59:40;1;[001]: Access granted;196;;;;;;Victor Bulatov 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9E9439F7-0DC0-4517-BDF8-D6FC5CEC76AF};1;OUT;0;PRIV;1;Victor Bulatov;510018F7CB;347893987275;Second_door_output;
+51193;2015-01-09;18:04:00;1;[001]: Access granted;166;;;;;;Andrei Brajnicov 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{950CB2BA-B0A2-411B-BE67-B7EA1044B7E1};1;OUT;0;PRIV;1;Andrei Brajnicov;510024B42B;347894756395;Second_door_output;
+51196;2015-01-09;18:04:00;1;[001]: Access granted;166;;;;;;Andrei Brajnicov 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{950CB2BA-B0A2-411B-BE67-B7EA1044B7E1};1;OUT;0;PRIV;1;Andrei Brajnicov;510024B42B;347894756395;Second_door_output;
+51199;2015-01-09;18:08:10;1;[001]: Access granted;199;;;;;;1 Palii Diana;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_output;
+51202;2015-01-09;18:08:20;1;[001]: Access granted;199;;;;;;1 Palii Diana;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_output;
+51205;2015-01-09;18:08:30;1;[001]: Access granted;199;;;;;;1 Palii Diana;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_output;
+51208;2015-01-09;18:08:40;1;[001]: Access granted;199;;;;;;1 Palii Diana;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_output;
+51211;2015-01-09;18:08:40;1;[001]: Access granted;199;;;;;;1 Palii Diana;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{CFD7EFB1-E97F-4F97-B777-3E0724CFBC16};1;OUT;0;PRIV;Palii Diana;1;510019CC77;347894041719;Second_door_output;
+51214;2015-01-09;18:09:10;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+51217;2015-01-09;18:09:20;1;[001]: Access granted;140;;;;;;Sergiu Morari 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{38BE6B03-BCE2-49D2-8372-45D910DDC779};1;OUT;0;PRIV;1;Sergiu Morari;5100192E17;347894001175;Second_door_output;
+51220;2015-01-09;18:25:10;1;[001]: Access granted;168;;;;;;Mihail Stratu 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A83C14E-33CD-4A4B-B2A9-3199783EF590};1;OUT;0;PRIV;2;Mihail Stratu;70003D414A;481040351562;Second_door_output;
+51223;2015-01-09;18:25:20;1;[001]: Access granted;168;;;;;;Mihail Stratu 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A83C14E-33CD-4A4B-B2A9-3199783EF590};1;OUT;0;PRIV;2;Mihail Stratu;70003D414A;481040351562;Second_door_output;
+51226;2015-01-09;18:25:40;1;[001]: Access granted;170;;;;;;Oleg Tofan 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{4F273042-FC2B-47F4-91B5-21A1B63CF92E};1;OUT;0;PRIV;1;Oleg Tofan;510025231B;347894784795;Second_door_output;
+51229;2015-01-09;18:29:00;1;[001]: Access granted;181;;;;;;Dan Butnaru 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{79D21065-AAC4-4D0D-BC9D-61BE02F560DF};1;OUT;0;PRIV;1;Dan Butnaru;510024597E;347894733182;Second_door_output;
+51232;2015-01-09;18:34:50;1;[001]: Access granted;138;;;;;;Anton Straista 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{D633A843-253C-40AE-A5CC-CEDBA258D60E};1;OUT;0;PRIV;1;Anton Straista;2802562DC8;171837894088;Center_output;
+51235;2015-01-09;18:35:50;1;[001]: Access granted;118;;;;;;Anastasia Sersun 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{67B80DA7-8887-4187-A2DD-24AC9C7608F2};1;OUT;0;PRIV;1;Anastasia Sersun;28017F283C;171823802428;Second_door_output;
+51238;2015-01-09;18:36:50;1;[001]: Access granted;133;;;;;;Serghei Stratu 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{75D9D9DC-7B6C-4375-9966-B9B04016DD1B};1;OUT;0;PRIV;1;Serghei Stratu;5100245844;347894732868;Second_door_output;
+51241;2015-01-09;18:38:00;1;[001]: Access granted;130;;;;;;Vladimir Gusac 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{A67DCC34-DD13-4BDC-89A5-68D9D63629E7};1;OUT;0;PRIV;1;Vladimir Gusac;2802564CBD;171837902013;Center_output;
+51244;2015-01-09;18:39:20;1;[001]: Access granted;130;;;;;;Vladimir Gusac 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{A67DCC34-DD13-4BDC-89A5-68D9D63629E7};0;IN;0;PRIV;1;Vladimir Gusac;2802564CBD;171837902013;Center_input;
+51247;2015-01-09;18:39:40;1;[001]: Access granted;130;;;;;;Vladimir Gusac 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{A67DCC34-DD13-4BDC-89A5-68D9D63629E7};1;OUT;0;PRIV;1;Vladimir Gusac;2802564CBD;171837902013;Second_door_output;
+51250;2015-01-09;18:46:10;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_output;
+51253;2015-01-09;18:46:10;1;[001]: Access granted;104;;;;;;Dumitru Condrea 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E6576E0F-A718-499C-A88F-5CCC8A9C6F2F};1;OUT;0;PRIV;1;Dumitru Condrea;51002448E9;347894728937;Second_door_output;
+51256;2015-01-09;18:49:30;1;[001]: Access granted;185;;;;;;Natalia Cardauc 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9A0D9E5C-BAE0-4BD2-AA83-21A869BE23CF};1;OUT;0;PRIV;1;Natalia Cardauc;5100244B61;347894729569;Second_door_output;
+51259;2015-01-09;18:51:40;1;[001]: Access granted;175;;;;;;Ghenadie Gorincioi 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{5F286D60-5FDD-468B-A4AC-694ACBD2F921};1;OUT;0;PRIV;2;Ghenadie Gorincioi;565A173B6D;370878659437;Second_door_output;
+51262;2015-01-09;18:51:40;1;[001]: Access granted;100;;;;;;Pavel Paladi 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{0042E0A8-E8D9-4121-A3D4-9ACB8C9F693B};1;OUT;0;PRIV;1;Pavel Paladi;5100248AEB;347894745835;Second_door_output;
+51265;2015-01-09;19:00:40;1;[001]: Access granted;137;;;;;;Alexandr Tumanov 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{9066E4DF-7579-4316-9250-9635D4FDEA94};1;OUT;0;PRIV;1;Alexandr Tumanov;2802562C1F;171837893663;Center_output;
+51268;2015-01-09;19:22:50;1;[001]: Access granted;132;;;;;;Mihail Iurco 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{6D09427E-4C9C-43B5-AFFD-8E2799276469};1;OUT;0;PRIV;1;Mihail Iurco;51002454CF;347894731983;Center_output;
+51271;2015-01-09;19:23:50;1;[001]: Access granted;132;;;;;;Mihail Iurco 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{6D09427E-4C9C-43B5-AFFD-8E2799276469};0;IN;0;PRIV;1;Mihail Iurco;51002454CF;347894731983;Center_input;
+51274;2015-01-09;19:24:10;1;[001]: Access granted;132;;;;;;Mihail Iurco 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{6D09427E-4C9C-43B5-AFFD-8E2799276469};1;OUT;0;PRIV;1;Mihail Iurco;51002454CF;347894731983;Second_door_output;
+51277;2015-01-09;19:45:50;1;[001]: Access granted;126;;;;;;Vitalie Stelea 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F3338365-FF20-40B2-96AE-2D5AF4BCBBF3};1;OUT;0;PRIV;1;Vitalie Stelea;5100191244;347893994052;Second_door_output;
+51280;2015-01-09;19:46:10;1;[001]: Access granted;169;;;;;;Igor Covganet 2;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{EA92C7AC-CC57-474F-8C87-EB079F1CBD47};1;OUT;0;PRIV;2;Igor Covganet;565A1B666C;370878932588;Center_output;
+51283;2015-01-09;19:47:20;1;[001]: Access granted;169;;;;;;Igor Covganet 2;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{EA92C7AC-CC57-474F-8C87-EB079F1CBD47};0;IN;0;PRIV;2;Igor Covganet;565A1B666C;370878932588;Center_input;
+51286;2015-01-09;19:47:40;1;[001]: Access granted;169;;;;;;Igor Covganet 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{EA92C7AC-CC57-474F-8C87-EB079F1CBD47};1;OUT;0;PRIV;2;Igor Covganet;565A1B666C;370878932588;Second_door_output;
+51289;2015-01-09;19:50:30;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+51292;2015-01-09;19:50:40;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+51295;2015-01-09;21:24:50;1;[001]: Access granted;177;;;;;;Petru Hincu 2;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{AF01ED7B-24E5-4D3E-8EA9-273EEA9B52B6};1;OUT;0;PRIV;2;Petru Hincu;565AFE593E;370893805886;Second_door_output;
+51298;2015-01-09;23:34:40;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+51301;2015-01-09;23:37:40;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+51304;2015-01-09;23:46:40;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+51307;2015-01-09;23:55:20;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+51310;2015-01-09;23:55:50;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+51313;2015-01-09;23:56:10;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+51316;2015-01-09;23:56:20;1;[001]: Access granted;125;;;;;;Corneliu Duja 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{216EFB78-9AC3-419A-A821-5D6045B435B6};1;OUT;0;PRIV;1;Corneliu Duja;565B2466ED;370896299757;Center_output;
+51319;2015-01-09;23:58:30;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;

@@ -1,0 +1,78 @@
+#EVENTS FILE - PR Master v4.5.6.875
+#FILEDEF=22-11-2014   00:00:02   Saturday;38;3B;FALSE
+#COLUMN0=TRUE;Unique event ID;0
+#COLUMN1=TRUE;Date;0
+#COLUMN2=TRUE;Time;0
+#COLUMN3=TRUE;Event code;0
+#COLUMN4=TRUE;Event name;0
+#COLUMN5=TRUE;User ID;0
+#COLUMN6=TRUE;T&A ID;0
+#COLUMN7=TRUE;Comment 1;0
+#COLUMN8=TRUE;Comment 2;0
+#COLUMN9=TRUE;Comment 3;0
+#COLUMN10=TRUE;Comment 4;0
+#COLUMN11=TRUE;User name;0
+#COLUMN12=TRUE;Access point ID;0
+#COLUMN13=TRUE;Access point name;0
+#COLUMN14=TRUE;Zone ID;0
+#COLUMN15=TRUE;Zone;0
+#COLUMN16=TRUE;Group ID;0
+#COLUMN17=TRUE;Group name;0
+#COLUMN18=TRUE;Event type;0
+#COLUMN19=TRUE;T&A mode code;0
+#COLUMN20=TRUE;T&A mode name;0
+#COLUMN21=TRUE;IN1 Option code;0
+#COLUMN22=TRUE;IN2 Option code;0
+#COLUMN23=TRUE;IN3 Option code;0
+#COLUMN24=TRUE;IN1 Message;0
+#COLUMN25=TRUE;IN2 Message;0
+#COLUMN26=TRUE;IN3 Message;0
+#COLUMN27=TRUE;T/A Mode;0
+#COLUMN28=TRUE;User GUID;0
+#COLUMN29=TRUE;T&A event parameter 1 code;0
+#COLUMN30=TRUE;T&A event parameter 1 name;0
+#COLUMN31=TRUE;T&A event parameter 2 code;0
+#COLUMN32=TRUE;T&A event parameter 2 name;0
+#COLUMN33=TRUE;Last Name;0
+#COLUMN34=TRUE;First Name;0
+#COLUMN35=TRUE;Card code (HEX);0
+#COLUMN36=TRUE;Card code (DEC);0
+#COLUMN37=TRUE;ReaderName_;0
+29116;2014-11-22;00:00:00;400;[400]: Clock synchronized;318767104;;;;;;Remote command;268435456;CPR;;;;;0;-1;;0;0;4;;;;-1;;;;;;;;;;;
+29119;2014-11-22;06:54:50;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+29122;2014-11-22;06:56:30;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+29125;2014-11-22;07:57:20;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+29128;2014-11-22;07:57:30;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+29131;2014-11-22;08:00:20;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+29134;2014-11-22;08:00:20;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+29137;2014-11-22;10:02:40;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+29140;2014-11-22;10:03:10;1;[001]: Access granted;179;;;;;;109 Paznic;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Second_door_output;
+29143;2014-11-22;10:03:10;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;1002;Second_door_input;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_input;
+29146;2014-11-22;10:03:40;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;
+29149;2014-11-22;10:17:20;400;[400]: Clock synchronized;318767104;;;;;;Remote command;268435456;CPR;;;;;0;-1;;0;0;4;;;;-1;;;;;;;;;;;
+29152;2014-11-22;10:32:00;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1;Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{F5163F99-6EA3-45A4-A183-7BEF922FA441};0;IN;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Center_input;
+29155;2014-11-22;10:46:20;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_output;
+29158;2014-11-22;10:46:20;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_output;
+29161;2014-11-22;10:58:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29164;2014-11-22;11:07:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29167;2014-11-22;11:35:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29170;2014-11-22;11:41:10;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29173;2014-11-22;12:09:50;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;1002;Second_door_input;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_input;
+29176;2014-11-22;12:10:50;1;[001]: Access granted;186;;;;;;Natalia Crihan 1;2;Second_door_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{7F21DA30-7057-47C8-92CB-E485B73B6E20};1;OUT;0;PRIV;1;Natalia Crihan;510023EB4E;347894704974;Second_door_output;
+29179;2014-11-22;12:55:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29182;2014-11-22;13:01:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29185;2014-11-22;13:53:30;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29188;2014-11-22;14:05:50;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29191;2014-11-22;15:11:00;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Center_output;
+29194;2014-11-22;16:02:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29197;2014-11-22;16:37:30;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29200;2014-11-22;16:42:00;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29203;2014-11-22;17:20:30;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29206;2014-11-22;17:25:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29209;2014-11-22;18:09:10;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29212;2014-11-22;18:14:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29215;2014-11-22;19:01:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;2;Second_door_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_output;
+29218;2014-11-22;19:06:20;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1002;Second_door_input;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Second_door_input;
+29221;2014-11-22;20:01:40;1;[001]: Access granted;176;;;;;;Alexandru Galata 1;1001;Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{F5163F99-6EA3-45A4-A183-7BEF922FA441};1;OUT;0;PRIV;1;Alexandru Galata;5100243B17;347894725399;Center_output;
+29224;2014-11-22;21:07:50;1;[001]: Access granted;179;;;;;;109 Paznic;1;Center_input;0;2etaj;0;No Group;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;Center_input;
+29227;2014-11-22;21:11:30;1;[001]: Access granted;179;;;;;;109 Paznic;1001;Center_output;0;2etaj;0;No Group;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;Center_output;

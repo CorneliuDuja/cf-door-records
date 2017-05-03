@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B52B0EC-DEDC-4C09-BF4E-E513FD62BBDE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AccessControl.Interface.Web</RootNamespace>
+    <AssemblyName>AccessControl.Interface.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="controllers\indexController.js" />
+    <Content Include="controllers\pointController.js" />
+    <Content Include="controllers\personController.js" />
+    <Content Include="controllers\sourceController.js" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="scripts\angular\angular-1.2.26\angular.js" />
+    <Content Include="scripts\angular\angular-1.2.26\angular.min.js" />
+    <Content Include="scripts\angular\angular-1.3.10\angular.js" />
+    <Content Include="scripts\angular\angular-1.3.10\angular.min.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\css\bootstrap.min.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\css\isteven-multi-select.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\css\simple-sidebar.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\css\style.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\highlight.pack.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\arta.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\ascetic.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-dune.dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-dune.light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-forest.dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-forest.light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-heath.dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-heath.light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-lakeside.dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-lakeside.light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-seaside.dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\atelier-seaside.light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\brown_paper.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\brown_papersq.png" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\default.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\docco.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\far.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\foundation.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\github.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\googlecode.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\idea.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\ir_black.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\magula.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\mono-blue.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\monokai.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\monokai_sublime.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\obsidian.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\paraiso.dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\paraiso.light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\pojoaque.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\pojoaque.jpg" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\railscasts.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\rainbow.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\school_book.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\school_book.png" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\solarized_dark.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\solarized_light.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\sunburst.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\tomorrow-night-blue.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\tomorrow-night-bright.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\tomorrow-night-eighties.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\tomorrow-night.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\tomorrow.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\vs.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\xcode.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\styles\zenburn.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\index.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\app.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-callbacks.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-disabling-enabling.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-dynamic-update.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-grouping.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-horizontal-layout.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-minimum.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\controllers\demo-single-selection-mode.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\angular-route.min.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\angular.min.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\bootstrap.min.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\helper.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\isteven-multi-select.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\jquery.min.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\js\libs\paypal-button.min.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\breaking-changes.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\bug-reporting-contributing.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\configs-options.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\contributing.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-callbacks.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-disabling-enabling.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-dynamic-update.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-grouping.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-helper-elements.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-horizontal-layout.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-minimum.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-output-properties.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\demo-single-selection-mode.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\dependency-compatibility.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\faq.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\getting-started.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\issues-bug-reporting.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\main.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\mit-license.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\doc\views\other-cool-stuffs.htm" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\isteven-multi-select.css" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\isteven-multi-select.js" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\LICENSE.txt" />
+    <Content Include="scripts\angular\angular-multi-select-master-4.0.0\screenshot.png" />
+    <Content Include="scripts\angular\angular-route-1.4.0\angular-route.js" />
+    <Content Include="scripts\angular\angular-route-1.4.0\angular-route.min.js" />
+    <Content Include="scripts\app.js" />
+    <Content Include="controllers\dayController.js" />
+    <Content Include="controllers\dayResumeController.js" />
+    <Content Include="controllers\eventController.js" />
+    <Content Include="filters\longTimeFilter.js" />
+    <Content Include="filters\shortTimeFilter.js" />
+    <Content Include="index.html" />
+    <Content Include="prototypes\datePrototype.js" />
+    <Content Include="scripts\jquery\signalR-2.2.0\jquery.signalR-2.2.0.js" />
+    <Content Include="scripts\jquery\signalR-2.2.0\jquery.signalR-2.2.0.min.js" />
+    <Content Include="scripts\other\dateInterval.js" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\css\bootstrap-theme.css" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\css\bootstrap-theme.min.css" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\css\bootstrap.css" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\css\bootstrap.min.css" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\js\bootstrap.js" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\js\bootstrap.min.js" />
+    <Content Include="scripts\jquery\bootstrap-3.3.2\js\npm.js" />
+    <Content Include="scripts\jquery\jquery-1.11.1.min.js" />
+    <Content Include="scripts\jquery\jquery-1.11.2.min.js" />
+    <Content Include="services\accessControlService.js" />
+    <Content Include="styles\site.css" />
+    <Content Include="views\pointReport.html" />
+    <Content Include="views\personReport.html" />
+    <Content Include="views\sourceReport.html" />
+    <Content Include="views\eventReport.html" />
+    <Content Include="views\day.html" />
+    <Content Include="views\dayReport.html" />
+    <Content Include="views\dayResume.html" />
+    <Content Include="views\event.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scripts\angular\angular-1.3.10\angular.min.js.map" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\.npmignore" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\bower.json" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\CHANGELOG.md" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\CHANGES.md" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\LICENSE" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\README.md" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\doc\highlight\README.ru.md" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\package.json" />
+    <None Include="scripts\angular\angular-multi-select-master-4.0.0\README.md" />
+    <None Include="scripts\angular\angular-route-1.4.0\angular-route.min.js.map" />
+    <None Include="scripts\angular\angular-route-1.4.0\bower.json" />
+    <None Include="scripts\angular\angular-route-1.4.0\package.json" />
+    <None Include="scripts\angular\angular-route-1.4.0\README.md" />
+    <None Include="scripts\jquery\bootstrap-3.3.2\css\bootstrap-theme.css.map" />
+    <None Include="scripts\jquery\bootstrap-3.3.2\css\bootstrap.css.map" />
+    <None Include="scripts\jquery\bootstrap-3.3.2\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="scripts\jquery\bootstrap-3.3.2\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="scripts\jquery\bootstrap-3.3.2\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="scripts\jquery\bootstrap-3.3.2\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

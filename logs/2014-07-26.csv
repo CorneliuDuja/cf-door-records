@@ -1,0 +1,55 @@
+#EVENTS FILE - PR Master v4.5.6.875
+#FILEDEF=08-08-2014   11:09:53   Friday;38;3B;FALSE
+#COLUMN0=FALSE;Unique event ID;0
+#COLUMN1=TRUE;Date;0
+#COLUMN2=TRUE;Time;0
+#COLUMN3=FALSE;Event code;0
+#COLUMN4=TRUE;Event name;0
+#COLUMN5=TRUE;User ID;0
+#COLUMN6=FALSE;T&A ID;0
+#COLUMN7=FALSE;Comment 1;0
+#COLUMN8=FALSE;Comment 2;0
+#COLUMN9=FALSE;Comment 3;0
+#COLUMN10=FALSE;Comment 4;0
+#COLUMN11=FALSE;User name;0
+#COLUMN12=FALSE;Access point ID;0
+#COLUMN13=TRUE;Access point name;0
+#COLUMN14=FALSE;Zone ID;0
+#COLUMN15=FALSE;Zone;0
+#COLUMN16=FALSE;Group ID;0
+#COLUMN17=FALSE;Group name;0
+#COLUMN18=TRUE;Event type;0
+#COLUMN19=FALSE;T&A mode code;0
+#COLUMN20=FALSE;T&A mode name;0
+#COLUMN21=FALSE;IN1 Option code;0
+#COLUMN22=FALSE;IN2 Option code;0
+#COLUMN23=FALSE;IN3 Option code;0
+#COLUMN24=FALSE;IN1 Message;0
+#COLUMN25=FALSE;IN2 Message;0
+#COLUMN26=FALSE;IN3 Message;0
+#COLUMN27=FALSE;T/A Mode;0
+#COLUMN28=FALSE;User GUID;0
+#COLUMN29=FALSE;T&A event parameter 1 code;0
+#COLUMN30=FALSE;T&A event parameter 1 name;0
+#COLUMN31=FALSE;T&A event parameter 2 code;0
+#COLUMN32=FALSE;T&A event parameter 2 name;0
+#COLUMN33=TRUE;Last Name;0
+#COLUMN34=TRUE;First Name;0
+#COLUMN35=FALSE;Card code (HEX);0
+#COLUMN36=FALSE;Card code (DEC);0
+#COLUMN37=FALSE;ReaderName_;0
+2014-07-26;09:11:20;[001]: Access granted;130;Center_input;0;Vladimir;Gusac;
+2014-07-26;09:12:30;[001]: Access granted;130;Center_input;0;Vladimir;Gusac;
+2014-07-26;09:20:10;[001]: Access granted;159;Second_door_input;0;Vadim;Rihlea;
+2014-07-26;09:23:40;[001]: Access granted;159;Center_input;0;Vadim;Rihlea;
+2014-07-26;09:45:30;[001]: Access granted;150;Center_input;0;Paza;Accent;
+2014-07-26;09:49:30;[001]: Access granted;150;Center_output;0;Paza;Accent;
+2014-07-26;12:52:50;[001]: Access granted;159;Center_output;0;Vadim;Rihlea;
+2014-07-26;13:05:10;[001]: Access granted;159;Center_input;0;Vadim;Rihlea;
+2014-07-26;13:29:50;[001]: Access granted;165;Center_input;0;Victor;2;
+2014-07-26;13:32:20;[001]: Access granted;165;Center_output;0;Victor;2;
+2014-07-26;13:33:50;[001]: Access granted;165;Center_input;0;Victor;2;
+2014-07-26;16:38:30;[001]: Access granted;150;Center_input;0;Paza;Accent;
+2014-07-26;17:18:10;[001]: Access granted;130;Center_output;0;Vladimir;Gusac;
+2014-07-26;19:43:20;[001]: Access granted;159;Center_output;0;Vadim;Rihlea;
+2014-07-26;19:44:40;[001]: Access granted;150;Center_input;0;Paza;Accent;

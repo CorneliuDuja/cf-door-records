@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html data-ng-controller="personController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Person(s):</div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+
+                <th><b>Name</b></th>
+
+                <th><b>Is Private</b></th>
+                
+                <th><b>Is Inside</b></th>
+
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="person in persons">
+            <tr data-ng-style="person.IsInside == true && {'color':'green'}">
+
+                <td title="Name">{{person.Name}}</td>
+
+                <td title="Is Private">
+                    <input type="checkbox" data-ng-model="person.IsPrivate" data-ng-disabled="true"/></td>
+
+                <td title="Is Inside">
+                    <input type="checkbox" data-ng-model="person.IsInside" data-ng-disabled="true"/></td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

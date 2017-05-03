@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-controller="dayController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Day(s):</div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+
+                <th><b>Person Name</b></th>
+
+                <th><b>Date</b></th>
+
+                <th><b>First In</b></th>
+
+                <th><b>Last Out</b></th>
+
+                <th><b>Duration</b></th>
+
+                <th><b>Deviation</b></th>
+
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="day in days">
+            <tr>
+
+                <td title="Person Name">{{day.Person.Name}}</td>
+
+                <td title="Date">{{day.Date}}</td>
+
+                <td title="First In">{{day.FirstIn}}</td>
+
+                <td title="Last Out">{{day.LastOut}}</td>
+
+                <td title="Duration">{{day.Duration | shortTimeFilter}}</td>
+
+                <td title="Deviation">{{day.Deviation | shortTimeFilter}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,9 @@
+FIELD,CCTVDevID,Integer,0,NOT_REQUIRED
+FIELD,CCTVActionID,Integer,0,NOT_REQUIRED
+FIELD,CCTVActionName,String,50,NOT_REQUIRED
+FIELD,MovieOrPicture,Boolean,0,NOT_REQUIRED
+FIELD,HowManyPictures,Integer,0,NOT_REQUIRED
+FIELD,PicturesBefore,Integer,0,NOT_REQUIRED
+FIELD,PicturesAfter,Integer,0,NOT_REQUIRED
+FIELD,SecondsBefore,Integer,0,NOT_REQUIRED
+FIELD,SecondsAfter,Integer,0,NOT_REQUIRED

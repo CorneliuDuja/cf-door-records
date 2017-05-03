@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-ng-controller="pointController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Point(s):</div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+
+                <th><b>Name</b></th>
+
+                <th><b>Point Action Type</b></th>
+
+            </tr>
+        </thead>
+        <tbody data-ng-repeat="point in points">
+            <tr>
+
+                <td title="Name">{{point.Name}}</td>
+
+                <td title="Point Action Type">{{point.PointActionType}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

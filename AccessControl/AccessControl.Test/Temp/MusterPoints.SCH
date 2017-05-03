@@ -1,0 +1,2 @@
+FIELD,MusterReaderID,Integer,0,NOT_REQUIRED
+FIELD,ReaderID,Integer,0,NOT_REQUIRED

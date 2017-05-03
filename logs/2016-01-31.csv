@@ -1,0 +1,87 @@
+#EVENTS FILE - PR Master v4.5.6.875
+#FILEDEF=31-01-2016   00:00:03   Sunday;38;3B;FALSE
+#COLUMN0=TRUE;Unique event ID;0
+#COLUMN1=TRUE;Date;0
+#COLUMN2=TRUE;Time;0
+#COLUMN3=TRUE;Event code;0
+#COLUMN4=TRUE;Event name;0
+#COLUMN5=TRUE;User ID;0
+#COLUMN6=TRUE;T&A ID;0
+#COLUMN7=TRUE;Comment 1;0
+#COLUMN8=TRUE;Comment 2;0
+#COLUMN9=TRUE;Comment 3;0
+#COLUMN10=TRUE;Comment 4;0
+#COLUMN11=TRUE;User name;0
+#COLUMN12=TRUE;Access point ID;0
+#COLUMN13=TRUE;Access point name;0
+#COLUMN14=TRUE;Zone ID;0
+#COLUMN15=TRUE;Zone;0
+#COLUMN16=TRUE;Group ID;0
+#COLUMN17=TRUE;Group name;0
+#COLUMN18=TRUE;Event type;0
+#COLUMN19=TRUE;T&A mode code;0
+#COLUMN20=TRUE;T&A mode name;0
+#COLUMN21=TRUE;IN1 Option code;0
+#COLUMN22=TRUE;IN2 Option code;0
+#COLUMN23=TRUE;IN3 Option code;0
+#COLUMN24=TRUE;IN1 Message;0
+#COLUMN25=TRUE;IN2 Message;0
+#COLUMN26=TRUE;IN3 Message;0
+#COLUMN27=TRUE;T/A Mode;0
+#COLUMN28=TRUE;User GUID;0
+#COLUMN29=TRUE;T&A event parameter 1 code;0
+#COLUMN30=TRUE;T&A event parameter 1 name;0
+#COLUMN31=TRUE;T&A event parameter 2 code;0
+#COLUMN32=TRUE;T&A event parameter 2 name;0
+#COLUMN33=TRUE;Last Name;0
+#COLUMN34=TRUE;First Name;0
+#COLUMN35=TRUE;Card code (HEX);0
+#COLUMN36=TRUE;Card code (DEC);0
+#COLUMN37=TRUE;ReaderName_;0
+346555;2016-01-31;00:00:00;400;[400]: Clock synchronized;318767104;;;;;;Remote command;268435456;CPR;;;;;0;-1;;0;0;4;;;;-1;;;;;;;;;;;
+346558;2016-01-31;06:40:00;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+346561;2016-01-31;06:40:40;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+346564;2016-01-31;08:29:10;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+346567;2016-01-31;08:31:00;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+346570;2016-01-31;10:18:10;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};0;IN;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;II_Etaj_Center_input;
+346573;2016-01-31;10:30:20;1;[001]: Access granted;224;;;;;;Andrei Cotorobai 2;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{25604A16-EC63-4904-9F0C-F9DAD9185ED3};0;IN;0;PRIV;2;Andrei Cotorobai;565A277E15;370879725077;II_Etaj_Center_input;
+346576;2016-01-31;10:31:20;1;[001]: Access granted;224;;;;;;Andrei Cotorobai 2;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{25604A16-EC63-4904-9F0C-F9DAD9185ED3};1;OUT;0;PRIV;2;Andrei Cotorobai;565A277E15;370879725077;II_Etaj_Center_output;
+346579;2016-01-31;10:53:40;1;[001]: Access granted;128;;;;;;Dmitrii Tomanencu 1;1007;I_Etaj_front_input;1;1etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{820AB679-205A-4FF1-9AAD-42F708A7BE4A};0;IN;0;PRIV;1;Dmitrii Tomanencu;5100244EA0;347894730400;I_Etaj_front_input;
+346582;2016-01-31;10:55:30;1;[001]: Access granted;128;;;;;;Dmitrii Tomanencu 1;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{820AB679-205A-4FF1-9AAD-42F708A7BE4A};0;IN;0;PRIV;1;Dmitrii Tomanencu;5100244EA0;347894730400;II_Etaj_Center_input;
+346585;2016-01-31;11:56:30;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;1007;I_Etaj_front_input;1;1etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};0;IN;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;I_Etaj_front_input;
+346588;2016-01-31;11:58:00;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};0;IN;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;II_Etaj_Center_input;
+346591;2016-01-31;12:37:50;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};1;OUT;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;II_Etaj_Center_output;
+346594;2016-01-31;13:13:10;1;[001]: Access granted;128;;;;;;Dmitrii Tomanencu 1;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{820AB679-205A-4FF1-9AAD-42F708A7BE4A};1;OUT;0;PRIV;1;Dmitrii Tomanencu;5100244EA0;347894730400;II_Etaj_Center_output;
+346597;2016-01-31;14:27:10;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+346600;2016-01-31;14:28:30;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+346603;2016-01-31;14:57:50;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;1007;I_Etaj_front_input;1;1etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};0;IN;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;I_Etaj_front_input;
+346606;2016-01-31;14:58:00;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;1008;I_Etaj_back_output;1;1etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};1;OUT;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;I_Etaj_back_output;
+346609;2016-01-31;14:58:20;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;1002;II_Etaj_back_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};0;IN;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;II_Etaj_back_input;
+346612;2016-01-31;15:15:50;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};0;IN;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_input;
+346615;2016-01-31;15:19:10;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+346618;2016-01-31;15:19:30;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+346621;2016-01-31;15:19:40;1;[001]: Access granted;103;;;;;;Marcel Nicolai 1;2;II_Etaj_back_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{E90E25B1-04F4-4F45-B87E-530AA3E8AAFB};1;OUT;0;PRIV;1;Marcel Nicolai;5100246F4D;347894738765;II_Etaj_back_output;
+346624;2016-01-31;15:20:00;1;[001]: Access granted;103;;;;;;Marcel Nicolai 1;8;I_Etaj_back_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{E90E25B1-04F4-4F45-B87E-530AA3E8AAFB};0;IN;0;PRIV;1;Marcel Nicolai;5100246F4D;347894738765;I_Etaj_back_input;
+346627;2016-01-31;15:20:00;1;[001]: Access granted;103;;;;;;Marcel Nicolai 1;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{E90E25B1-04F4-4F45-B87E-530AA3E8AAFB};1;OUT;0;PRIV;1;Marcel Nicolai;5100246F4D;347894738765;I_Etaj_front_output;
+346630;2016-01-31;15:21:50;1;[001]: Access granted;103;;;;;;Marcel Nicolai 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{E90E25B1-04F4-4F45-B87E-530AA3E8AAFB};0;IN;0;PRIV;1;Marcel Nicolai;5100246F4D;347894738765;I_Etaj_front_input;
+346633;2016-01-31;15:22:00;1;[001]: Access granted;103;;;;;;Marcel Nicolai 1;1008;I_Etaj_back_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{E90E25B1-04F4-4F45-B87E-530AA3E8AAFB};1;OUT;0;PRIV;1;Marcel Nicolai;5100246F4D;347894738765;I_Etaj_back_output;
+346636;2016-01-31;15:22:10;1;[001]: Access granted;103;;;;;;Marcel Nicolai 1;1002;II_Etaj_back_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{E90E25B1-04F4-4F45-B87E-530AA3E8AAFB};0;IN;0;PRIV;1;Marcel Nicolai;5100246F4D;347894738765;II_Etaj_back_input;
+346639;2016-01-31;15:22:30;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;2;II_Etaj_back_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};1;OUT;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;II_Etaj_back_output;
+346642;2016-01-31;15:22:50;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;8;I_Etaj_back_input;1;1etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};0;IN;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;I_Etaj_back_input;
+346645;2016-01-31;15:23:00;1;[001]: Access granted;165;;;;;;Andrei Prescornic 1;7;I_Etaj_front_output;1;1etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{A0913E8A-8CDA-4B9E-8D49-5D5273571472};1;OUT;0;PRIV;1;Andrei Prescornic;42006384B8;283474363576;I_Etaj_front_output;
+346648;2016-01-31;16:13:50;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};1;OUT;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_output;
+346651;2016-01-31;16:24:00;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};0;IN;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_input;
+346654;2016-01-31;17:10:50;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;2;II_Etaj_back_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};1;OUT;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;II_Etaj_back_output;
+346657;2016-01-31;17:11:10;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;8;I_Etaj_back_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};0;IN;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;I_Etaj_back_input;
+346660;2016-01-31;17:11:20;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};1;OUT;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;I_Etaj_front_output;
+346663;2016-01-31;18:02:30;1;[001]: Access granted;179;;;;;;109 Paznic;1008;I_Etaj_back_output;1;1etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;I_Etaj_back_output;
+346666;2016-01-31;18:12:10;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};1;OUT;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_output;
+346669;2016-01-31;18:16:30;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};0;IN;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_input;
+346672;2016-01-31;18:24:00;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+346675;2016-01-31;18:25:00;1;[001]: Access granted;179;;;;;;109 Paznic;2;II_Etaj_back_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_back_output;
+346678;2016-01-31;18:26:50;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+346681;2016-01-31;18:28:00;1;[001]: Access granted;222;;;;;;Artiom Negura 2;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{E2FC8848-69B6-4511-9A44-38DFAC33A679};1;OUT;0;PRIV;2;Artiom Negura;54000C31D7;360778052055;I_Etaj_front_output;
+346684;2016-01-31;19:23:10;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};1;OUT;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_output;
+346687;2016-01-31;19:32:20;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};0;IN;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_input;
+346690;2016-01-31;22:02:30;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};1;OUT;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_output;
+346693;2016-01-31;22:06:00;1;[001]: Access granted;179;;;;;;109 Paznic;1008;I_Etaj_back_output;1;1etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;I_Etaj_back_output;

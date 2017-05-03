@@ -1,0 +1,310 @@
+#EVENTS FILE - PR Master v4.5.6.875
+#FILEDEF=08-08-2014   11:09:53   Friday;38;3B;FALSE
+#COLUMN0=FALSE;Unique event ID;0
+#COLUMN1=TRUE;Date;0
+#COLUMN2=TRUE;Time;0
+#COLUMN3=FALSE;Event code;0
+#COLUMN4=TRUE;Event name;0
+#COLUMN5=TRUE;User ID;0
+#COLUMN6=FALSE;T&A ID;0
+#COLUMN7=FALSE;Comment 1;0
+#COLUMN8=FALSE;Comment 2;0
+#COLUMN9=FALSE;Comment 3;0
+#COLUMN10=FALSE;Comment 4;0
+#COLUMN11=FALSE;User name;0
+#COLUMN12=FALSE;Access point ID;0
+#COLUMN13=TRUE;Access point name;0
+#COLUMN14=FALSE;Zone ID;0
+#COLUMN15=FALSE;Zone;0
+#COLUMN16=FALSE;Group ID;0
+#COLUMN17=FALSE;Group name;0
+#COLUMN18=TRUE;Event type;0
+#COLUMN19=FALSE;T&A mode code;0
+#COLUMN20=FALSE;T&A mode name;0
+#COLUMN21=FALSE;IN1 Option code;0
+#COLUMN22=FALSE;IN2 Option code;0
+#COLUMN23=FALSE;IN3 Option code;0
+#COLUMN24=FALSE;IN1 Message;0
+#COLUMN25=FALSE;IN2 Message;0
+#COLUMN26=FALSE;IN3 Message;0
+#COLUMN27=FALSE;T/A Mode;0
+#COLUMN28=FALSE;User GUID;0
+#COLUMN29=FALSE;T&A event parameter 1 code;0
+#COLUMN30=FALSE;T&A event parameter 1 name;0
+#COLUMN31=FALSE;T&A event parameter 2 code;0
+#COLUMN32=FALSE;T&A event parameter 2 name;0
+#COLUMN33=TRUE;Last Name;0
+#COLUMN34=TRUE;First Name;0
+#COLUMN35=FALSE;Card code (HEX);0
+#COLUMN36=FALSE;Card code (DEC);0
+#COLUMN37=FALSE;ReaderName_;0
+2014-07-31;05:26:50;[001]: Access granted;150;Center_input;0;Paza;Accent;
+2014-07-31;05:58:50;[001]: Access granted;148;Second_door_input;0;Elena;Golovco;
+2014-07-31;08:23:00;[001]: Access granted;148;Second_door_output;0;Elena;Golovco;
+2014-07-31;08:25:10;[001]: Access granted;131;Center_input;0;Vitalie;Cosaciov;
+2014-07-31;08:37:40;[001]: Access granted;139;Center_input;0;Veronica;Drumea;
+2014-07-31;08:42:30;[001]: Access granted;140;Second_door_input;0;Sergiu;Morari;
+2014-07-31;08:42:30;[001]: Access granted;137;Center_input;0;Alexandr;Tumanov;
+2014-07-31;08:42:40;[001]: Access granted;140;Second_door_input;0;Sergiu;Morari;
+2014-07-31;08:42:50;[001]: Access granted;158;Center_input;0;Vadim;Sirghii;
+2014-07-31;08:48:40;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;08:48:50;[001]: Access granted;123;Center_input;0;Denis;Obada;
+2014-07-31;08:49:30;[001]: Access granted;159;Second_door_input;0;Vadim;Rihlea;
+2014-07-31;08:53:10;[001]: Access granted;173;Center_input;0;Chrill;Grini2;
+2014-07-31;08:54:20;[001]: Access granted;168;Second_door_input;0;Mihail;Stratu 2;
+2014-07-31;08:55:50;[001]: Access granted;157;Second_door_input;0;Ion;Lenta2;
+2014-07-31;09:01:50;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;09:04:00;[001]: Access granted;166;Second_door_input;0;Andrei;Brajnicov;
+2014-07-31;09:04:10;[001]: Access granted;170;Second_door_input;0;Oleg;Tofan;
+2014-07-31;09:06:00;[001]: Access granted;116;Second_door_input;0;Alexei;Furajcov;
+2014-07-31;09:10:30;[001]: Access granted;138;Center_input;0;Anton;Straista;
+2014-07-31;09:10:50;[001]: Access granted;121;Center_input;0;Serghei;Botnariuc;
+2014-07-31;09:11:50;[001]: Access granted;151;Center_input;0;Plecan Alexei;Accent;
+2014-07-31;09:12:50;[001]: Access granted;117;Center_input;0;Veaceslav;Grigorov;
+2014-07-31;09:13:20;[001]: Access granted;151;Center_output;0;Plecan Alexei;Accent;
+2014-07-31;09:13:40;[001]: Access granted;138;Center_output;0;Anton;Straista;
+2014-07-31;09:17:00;[001]: Access granted;134;Center_input;0;Tatiana;Merjan;
+2014-07-31;09:19:20;[001]: Access granted;136;Center_input;0;Elena;Plamadeala;
+2014-07-31;09:20:00;[001]: Access granted;138;Center_input;0;Anton;Straista;
+2014-07-31;09:22:50;[001]: Access granted;100;Second_door_input;0;Pavel;Paladi;
+2014-07-31;09:23:30;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;09:24:10;[001]: Access granted;163;Second_door_input;0;maria;Poginet;
+2014-07-31;09:26:50;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;09:30:10;[001]: Access granted;101;Second_door_input;0;Dorin;Tcaci;
+2014-07-31;09:31:10;[001]: Access granted;118;Center_input;0;Anastasia;Sersun;
+2014-07-31;09:32:30;[001]: Access granted;175;Second_door_input;0;Ghenadie;Gorincioi2;
+2014-07-31;09:33:40;[001]: Access granted;158;Center_output;0;Vadim;Sirghii;
+2014-07-31;09:37:10;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;09:39:50;[001]: Access granted;177;Second_door_input;0;Hincu;Petru2;
+2014-07-31;09:40:10;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;09:42:40;[001]: Access granted;130;Center_input;0;Vladimir;Gusac;
+2014-07-31;09:43:00;[001]: Access granted;141;Second_door_input;0;Grigorii;Tulba;
+2014-07-31;09:55:10;[001]: Access granted;120;Center_input;0;Andrei;Cotorobai;
+2014-07-31;09:57:10;[001]: Access granted;135;Second_door_input;0;Mihail;Braila;
+2014-07-31;10:01:00;[001]: Access granted;162;Center_input;0;Iurie;Graur;
+2014-07-31;10:03:30;[001]: Access granted;155;Second_door_input;0;Nicolai;Marcel2;
+2014-07-31;10:04:30;[001]: Access granted;133;Center_input;0;Serghei;Stratu;
+2014-07-31;10:04:50;[001]: Access granted;125;Center_input;0;Corneliu;Duja;
+2014-07-31;10:11:30;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;10:21:40;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;10:22:20;[001]: Access granted;126;Second_door_input;0;Vitalie;Stelea;
+2014-07-31;10:23:50;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;10:24:50;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;10:40:50;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;10:41:30;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;10:42:00;[044]: Unknown card;407896064;Center_input;1;;;
+2014-07-31;10:42:00;[001]: Access granted;150;Center_input;0;Paza;Accent;
+2014-07-31;10:45:10;[001]: Access granted;107;Center_input;0;Igor;Mamaliga;
+2014-07-31;10:45:30;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;10:49:10;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;10:51:40;[001]: Access granted;127;Second_door_input;0;Vladimir;Grigoriev;
+2014-07-31;10:53:00;[001]: Access granted;144;Second_door_input;0;Roman;Leca;
+2014-07-31;10:58:20;[001]: Access granted;128;Second_door_input;0;Vitalie;Pleteniuc;
+2014-07-31;11:29:40;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;11:30:00;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;11:30:40;[001]: Access granted;118;Center_output;0;Anastasia;Sersun;
+2014-07-31;11:34:10;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;11:38:00;[001]: Access granted;118;Center_input;0;Anastasia;Sersun;
+2014-07-31;11:39:00;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;11:39:10;[001]: Access granted;168;Second_door_output;0;Mihail;Stratu 2;
+2014-07-31;11:46:10;[001]: Access granted;175;Second_door_output;0;Ghenadie;Gorincioi2;
+2014-07-31;11:54:40;[001]: Access granted;107;Second_door_output;0;Igor;Mamaliga;
+2014-07-31;11:56:20;[001]: Access granted;155;Second_door_output;0;Nicolai;Marcel2;
+2014-07-31;11:59:10;[001]: Access granted;107;Second_door_input;0;Igor;Mamaliga;
+2014-07-31;12:00:20;[001]: Access granted;168;Second_door_input;0;Mihail;Stratu 2;
+2014-07-31;12:01:30;[001]: Access granted;175;Second_door_input;0;Ghenadie;Gorincioi2;
+2014-07-31;12:05:20;[001]: Access granted;138;Center_output;0;Anton;Straista;
+2014-07-31;12:05:40;[001]: Access granted;116;Center_output;0;Alexei;Furajcov;
+2014-07-31;12:08:10;[001]: Access granted;113;Center_output;0;Chirill;Grini;
+2014-07-31;12:08:20;[001]: Access granted;137;Center_output;0;Alexandr;Tumanov;
+2014-07-31;12:08:20;[001]: Access granted;176;Center_output;0;Alexandru;Galata;
+2014-07-31;12:08:40;[001]: Access granted;166;Center_output;0;Andrei;Brajnicov;
+2014-07-31;12:09:40;[001]: Access granted;131;Center_output;0;Vitalie;Cosaciov;
+2014-07-31;12:13:20;[001]: Access granted;170;Center_output;0;Oleg;Tofan;
+2014-07-31;12:13:30;[001]: Access granted;177;Center_output;0;Hincu;Petru2;
+2014-07-31;12:15:20;[001]: Access granted;163;Center_output;0;maria;Poginet;
+2014-07-31;12:15:30;[001]: Access granted;158;Center_output;0;Vadim;Sirghii;
+2014-07-31;12:23:00;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;12:23:00;[001]: Access granted;141;Center_output;0;Grigorii;Tulba;
+2014-07-31;12:25:00;[001]: Access granted;135;Center_output;0;Mihail;Braila;
+2014-07-31;12:25:10;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;12:25:40;[001]: Access granted;136;Center_output;0;Elena;Plamadeala;
+2014-07-31;12:27:10;[001]: Access granted;104;Second_door_output;0;Dumitru;Condrea;
+2014-07-31;12:27:40;[001]: Access granted;134;Center_output;0;Tatiana;Merjan;
+2014-07-31;12:29:10;[001]: Access granted;140;Center_output;0;Sergiu;Morari;
+2014-07-31;12:30:10;[001]: Access granted;133;Center_output;0;Serghei;Stratu;
+2014-07-31;12:31:40;[001]: Access granted;163;Center_input;0;maria;Poginet;
+2014-07-31;12:31:50;[001]: Access granted;158;Center_input;0;Vadim;Sirghii;
+2014-07-31;12:32:20;[001]: Access granted;176;Center_input;0;Alexandru;Galata;
+2014-07-31;12:32:20;[001]: Access granted;131;Center_input;0;Vitalie;Cosaciov;
+2014-07-31;12:32:20;[001]: Access granted;166;Center_input;0;Andrei;Brajnicov;
+2014-07-31;12:32:30;[001]: Access granted;137;Center_input;0;Alexandr;Tumanov;
+2014-07-31;12:35:20;[001]: Access granted;113;Center_input;0;Chirill;Grini;
+2014-07-31;12:36:40;[001]: Access granted;126;Center_output;0;Vitalie;Stelea;
+2014-07-31;12:37:00;[001]: Access granted;116;Center_input;0;Alexei;Furajcov;
+2014-07-31;12:37:50;[001]: Access granted;144;Center_output;0;Roman;Leca;
+2014-07-31;12:39:10;[001]: Access granted;128;Center_output;0;Vitalie;Pleteniuc;
+2014-07-31;12:42:30;[001]: Access granted;130;Center_output;0;Vladimir;Gusac;
+2014-07-31;12:42:50;[001]: Access granted;177;Center_input;0;Hincu;Petru2;
+2014-07-31;12:43:30;[001]: Access granted;129;Center_input;0;Ion;Lenta;
+2014-07-31;12:44:10;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;12:44:20;[001]: Access granted;170;Second_door_output;0;Oleg;Tofan;
+2014-07-31;12:45:10;[001]: Access granted;173;Center_output;0;Chrill;Grini2;
+2014-07-31;12:47:50;[001]: Access granted;173;Center_input;0;Chrill;Grini2;
+2014-07-31;12:51:10;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;12:52:00;[001]: Access granted;140;Center_input;0;Sergiu;Morari;
+2014-07-31;12:53:10;[001]: Access granted;136;Center_input;0;Elena;Plamadeala;
+2014-07-31;12:53:50;[001]: Access granted;123;Center_output;0;Denis;Obada;
+2014-07-31;12:54:50;[001]: Access granted;127;Center_output;0;Vladimir;Grigoriev;
+2014-07-31;12:57:10;[001]: Access granted;170;Second_door_input;0;Oleg;Tofan;
+2014-07-31;12:59:20;[001]: Access granted;175;Center_output;0;Ghenadie;Gorincioi2;
+2014-07-31;13:00:20;[001]: Access granted;163;Center_output;0;maria;Poginet;
+2014-07-31;13:00:20;[001]: Access granted;163;Center_input;0;maria;Poginet;
+2014-07-31;13:01:10;[001]: Access granted;171;Center_output;0;Artiom;Negura;
+2014-07-31;13:04:20;[001]: Access granted;130;Center_input;0;Vladimir;Gusac;
+2014-07-31;13:04:40;[001]: Access granted;165;Center_output;0;Victor;2;
+2014-07-31;13:06:10;[001]: Access granted;144;Center_input;0;Roman;Leca;
+2014-07-31;13:11:10;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;13:11:30;[001]: Access granted;155;Second_door_input;0;Nicolai;Marcel2;
+2014-07-31;13:12:40;[001]: Access granted;118;Center_output;0;Anastasia;Sersun;
+2014-07-31;13:17:40;[001]: Access granted;101;Center_input;0;Dorin;Tcaci;
+2014-07-31;13:25:40;[001]: Access granted;125;Center_output;0;Corneliu;Duja;
+2014-07-31;13:26:20;[001]: Access granted;138;Second_door_input;0;Anton;Straista;
+2014-07-31;13:26:40;[001]: Access granted;135;Second_door_input;0;Mihail;Braila;
+2014-07-31;13:30:00;[001]: Access granted;118;Center_input;0;Anastasia;Sersun;
+2014-07-31;13:32:30;[001]: Access granted;165;Center_input;0;Victor;2;
+2014-07-31;13:32:40;[001]: Access granted;104;Second_door_input;0;Dumitru;Condrea;
+2014-07-31;13:36:20;[001]: Access granted;171;Center_input;0;Artiom;Negura;
+2014-07-31;13:36:50;[001]: Access granted;107;Second_door_input;0;Igor;Mamaliga;
+2014-07-31;13:38:10;[001]: Access granted;141;Second_door_input;0;Grigorii;Tulba;
+2014-07-31;13:39:00;[001]: Access granted;168;Second_door_input;0;Mihail;Stratu 2;
+2014-07-31;13:40:20;[001]: Access granted;121;Center_input;0;Serghei;Botnariuc;
+2014-07-31;13:43:20;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;13:47:40;[001]: Access granted;161;Center_input;0;4;Guest;
+2014-07-31;13:48:20;[001]: Access granted;128;Second_door_input;0;Vitalie;Pleteniuc;
+2014-07-31;13:48:40;[001]: Access granted;175;Center_input;0;Ghenadie;Gorincioi2;
+2014-07-31;13:48:40;[001]: Access granted;127;Center_input;0;Vladimir;Grigoriev;
+2014-07-31;13:48:40;[001]: Access granted;126;Center_input;0;Vitalie;Stelea;
+2014-07-31;13:51:20;[001]: Access granted;170;Second_door_output;0;Oleg;Tofan;
+2014-07-31;13:53:10;[001]: Access granted;134;Center_input;0;Tatiana;Merjan;
+2014-07-31;13:58:10;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;14:07:20;[001]: Access granted;125;Center_input;0;Corneliu;Duja;
+2014-07-31;14:10:40;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;14:15:20;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;14:20:20;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;14:22:50;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;14:33:10;[001]: Access granted;170;Second_door_input;0;Oleg;Tofan;
+2014-07-31;14:51:40;[001]: Access granted;169;Center_output;0;Covganet;Igor2;
+2014-07-31;14:52:40;[001]: Access granted;163;Center_output;0;maria;Poginet;
+2014-07-31;15:04:20;[001]: Access granted;107;Second_door_output;0;Igor;Mamaliga;
+2014-07-31;15:08:40;[001]: Access granted;107;Second_door_input;0;Igor;Mamaliga;
+2014-07-31;15:10:40;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;15:13:40;[001]: Access granted;161;Center_output;0;4;Guest;
+2014-07-31;15:15:00;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;15:16:50;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;15:17:20;[001]: Access granted;175;Second_door_output;0;Ghenadie;Gorincioi2;
+2014-07-31;15:19:10;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;15:24:10;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;15:24:10;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;15:24:30;[001]: Access granted;100;Second_door_output;0;Pavel;Paladi;
+2014-07-31;15:31:30;[001]: Access granted;100;Second_door_input;0;Pavel;Paladi;
+2014-07-31;15:32:20;[001]: Access granted;100;Second_door_output;0;Pavel;Paladi;
+2014-07-31;15:36:00;[001]: Access granted;161;Center_input;0;4;Guest;
+2014-07-31;15:38:30;[001]: Access granted;163;Second_door_input;0;maria;Poginet;
+2014-07-31;15:39:00;[001]: Access granted;150;Center_input;0;Paza;Accent;
+2014-07-31;15:40:10;[001]: Access granted;150;Center_output;0;Paza;Accent;
+2014-07-31;15:45:20;[001]: Access granted;163;Center_output;0;maria;Poginet;
+2014-07-31;15:45:30;[001]: Access granted;163;Center_input;0;maria;Poginet;
+2014-07-31;15:50:50;[001]: Access granted;100;Second_door_input;0;Pavel;Paladi;
+2014-07-31;15:52:30;[001]: Access granted;168;Second_door_input;0;Mihail;Stratu 2;
+2014-07-31;15:54:40;[001]: Access granted;169;Center_input;0;Covganet;Igor2;
+2014-07-31;15:59:50;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;16:02:40;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;16:09:30;[001]: Access granted;136;Center_output;0;Elena;Plamadeala;
+2014-07-31;16:10:10;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;16:14:50;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;16:16:40;[001]: Access granted;144;Second_door_output;0;Roman;Leca;
+2014-07-31;16:16:50;[001]: Access granted;169;Center_output;0;Covganet;Igor2;
+2014-07-31;16:17:00;[001]: Access granted;121;Second_door_output;0;Serghei;Botnariuc;
+2014-07-31;16:20:00;[001]: Access granted;141;Second_door_output;0;Grigorii;Tulba;
+2014-07-31;16:23:10;[001]: Access granted;126;Second_door_output;0;Vitalie;Stelea;
+2014-07-31;16:25:30;[001]: Access granted;126;Second_door_input;0;Vitalie;Stelea;
+2014-07-31;16:38:00;[044]: Unknown card;407896064;Second_door_output;1;;;
+2014-07-31;16:38:40;[001]: Access granted;178;Second_door_output;0;;;
+2014-07-31;16:39:30;[001]: Access granted;141;Second_door_input;0;Grigorii;Tulba;
+2014-07-31;16:39:50;[001]: Access granted;169;Center_input;0;Covganet;Igor2;
+2014-07-31;16:46:00;[001]: Access granted;107;Second_door_output;0;Igor;Mamaliga;
+2014-07-31;16:46:50;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;16:47:10;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;16:51:00;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;16:55:10;[001]: Access granted;170;Center_output;0;Oleg;Tofan;
+2014-07-31;16:56:00;[001]: Access granted;170;Center_input;0;Oleg;Tofan;
+2014-07-31;16:57:10;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;16:57:50;[001]: Access granted;163;Second_door_output;0;maria;Poginet;
+2014-07-31;16:57:50;[001]: Access granted;163;Second_door_input;0;maria;Poginet;
+2014-07-31;17:06:40;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;17:12:30;[001]: Access granted;163;Center_output;0;maria;Poginet;
+2014-07-31;17:13:10;[001]: Access granted;178;Center_input;0;;;
+2014-07-31;17:13:20;[001]: Access granted;163;Center_input;0;maria;Poginet;
+2014-07-31;17:17:50;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;17:19:40;[001]: Access granted;117;Center_output;0;Veaceslav;Grigorov;
+2014-07-31;17:20:10;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;17:21:00;[001]: Access granted;117;Center_input;0;Veaceslav;Grigorov;
+2014-07-31;17:22:50;[001]: Access granted;170;Center_output;0;Oleg;Tofan;
+2014-07-31;17:23:50;[001]: Access granted;161;Center_output;0;4;Guest;
+2014-07-31;17:24:10;[001]: Access granted;168;Center_output;0;Mihail;Stratu 2;
+2014-07-31;17:25:20;[001]: Access granted;131;Second_door_output;0;Vitalie;Cosaciov;
+2014-07-31;17:29:50;[001]: Access granted;175;Second_door_input;0;Ghenadie;Gorincioi2;
+2014-07-31;17:44:10;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;17:46:10;[001]: Access granted;137;Center_output;0;Alexandr;Tumanov;
+2014-07-31;17:47:10;[001]: Access granted;158;Center_output;0;Vadim;Sirghii;
+2014-07-31;17:49:10;[001]: Access granted;139;Center_output;0;Veronica;Drumea;
+2014-07-31;17:49:10;[001]: Access granted;133;Second_door_input;0;Serghei;Stratu;
+2014-07-31;17:56:00;[001]: Access granted;130;Center_output;0;Vladimir;Gusac;
+2014-07-31;17:57:50;[001]: Access granted;134;Center_output;0;Tatiana;Merjan;
+2014-07-31;18:02:50;[001]: Access granted;169;Center_output;0;Covganet;Igor2;
+2014-07-31;18:05:00;[001]: Access granted;169;Center_input;0;Covganet;Igor2;
+2014-07-31;18:06:10;[001]: Access granted;169;Center_output;0;Covganet;Igor2;
+2014-07-31;18:06:20;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;18:09:10;[001]: Access granted;123;Center_output;0;Denis;Obada;
+2014-07-31;18:10:10;[001]: Access granted;176;Second_door_input;0;Alexandru;Galata;
+2014-07-31;18:10:50;[001]: Access granted;163;Second_door_output;0;maria;Poginet;
+2014-07-31;18:11:50;[001]: Access granted;169;Center_input;0;Covganet;Igor2;
+2014-07-31;18:12:00;[001]: Access granted;138;Center_output;0;Anton;Straista;
+2014-07-31;18:12:10;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;18:14:00;[001]: Access granted;176;Second_door_output;0;Alexandru;Galata;
+2014-07-31;18:14:10;[001]: Access granted;165;Second_door_input;0;Victor;2;
+2014-07-31;18:17:20;[001]: Access granted;166;Second_door_output;0;Andrei;Brajnicov;
+2014-07-31;18:21:00;[001]: Access granted;173;Center_output;0;Chrill;Grini2;
+2014-07-31;18:21:50;[001]: Access granted;161;Second_door_output;0;4;Guest;
+2014-07-31;18:28:30;[001]: Access granted;118;Center_output;0;Anastasia;Sersun;
+2014-07-31;18:33:00;[001]: Access granted;165;Second_door_output;0;Victor;2;
+2014-07-31;18:34:00;[001]: Access granted;175;Second_door_output;0;Ghenadie;Gorincioi2;
+2014-07-31;18:38:20;[001]: Access granted;140;Second_door_output;0;Sergiu;Morari;
+2014-07-31;18:41:40;[001]: Access granted;107;Second_door_output;0;Igor;Mamaliga;
+2014-07-31;18:42:00;[001]: Access granted;169;Center_output;0;Covganet;Igor2;
+2014-07-31;18:42:20;[001]: Access granted;100;Second_door_output;0;Pavel;Paladi;
+2014-07-31;18:42:50;[001]: Access granted;157;Second_door_output;0;Ion;Lenta2;
+2014-07-31;18:49:10;[001]: Access granted;116;Center_output;0;Alexei;Furajcov;
+2014-07-31;18:52:20;[001]: Access granted;133;Second_door_output;0;Serghei;Stratu;
+2014-07-31;18:58:40;[001]: Access granted;141;Center_output;0;Grigorii;Tulba;
+2014-07-31;19:02:40;[001]: Access granted;104;Second_door_output;0;Dumitru;Condrea;
+2014-07-31;19:16:10;[001]: Access granted;128;Center_output;0;Vitalie;Pleteniuc;
+2014-07-31;19:27:00;[001]: Access granted;120;Center_output;0;Andrei;Cotorobai;
+2014-07-31;19:30:00;[001]: Access granted;144;Center_output;0;Roman;Leca;
+2014-07-31;19:40:00;[001]: Access granted;121;Second_door_output;0;Serghei;Botnariuc;
+2014-07-31;19:45:10;[001]: Access granted;120;Second_door_output;0;Andrei;Cotorobai;
+2014-07-31;20:07:20;[001]: Access granted;127;Second_door_output;0;Vladimir;Grigoriev;
+2014-07-31;20:27:40;[001]: Access granted;126;Second_door_output;0;Vitalie;Stelea;
+2014-07-31;20:50:10;[001]: Access granted;170;Center_input;0;Oleg;Tofan;
+2014-07-31;20:51:10;[001]: Access granted;170;Second_door_output;0;Oleg;Tofan;
+2014-07-31;21:03:40;[001]: Access granted;125;Center_output;0;Corneliu;Duja;
+2014-07-31;21:13:40;[001]: Access granted;101;Second_door_output;0;Dorin;Tcaci;
+2014-07-31;21:15:40;[001]: Access granted;177;Center_output;0;Hincu;Petru2;
+2014-07-31;21:16:30;[001]: Access granted;177;Center_input;0;Hincu;Petru2;
+2014-07-31;21:16:50;[001]: Access granted;177;Second_door_output;0;Hincu;Petru2;
+2014-07-31;23:08:40;[001]: Access granted;155;Center_output;0;Nicolai;Marcel2;
+2014-07-31;23:09:20;[001]: Access granted;155;Center_input;0;Nicolai;Marcel2;
+2014-07-31;23:11:10;[001]: Access granted;155;Second_door_output;0;Nicolai;Marcel2;
+2014-07-31;23:11:40;[001]: Access granted;178;Center_input;0;;;
+2014-07-31;23:14:40;[001]: Access granted;178;Center_output;0;;;

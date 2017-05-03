@@ -1,0 +1,6 @@
+INDEX,PRIMARY_KEY,3,ScheduleID;Day;StartTime;EndTime
+FIELD,ScheduleID,Integer,0,REQUIRED
+FIELD,Day,Integer,0,REQUIRED
+FIELD,StartTime,Time,0,REQUIRED
+FIELD,EndTime,Time,0,REQUIRED
+FIELD,Type,Integer,0,NOT_REQUIRED

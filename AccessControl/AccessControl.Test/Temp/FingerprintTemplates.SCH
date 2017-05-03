@@ -1,0 +1,3 @@
+FIELD,UserGUID,String,38,REQUIRED
+FIELD,FingerprintTemplate,Memo,1,REQUIRED
+FIELD,FingerIdx,SmallInt,0,NOT_REQUIRED

@@ -1,0 +1,73 @@
+#EVENTS FILE - PR Master v4.5.6.875
+#FILEDEF=31-10-2015   00:00:03   Saturday;38;3B;FALSE
+#COLUMN0=TRUE;Unique event ID;0
+#COLUMN1=TRUE;Date;0
+#COLUMN2=TRUE;Time;0
+#COLUMN3=TRUE;Event code;0
+#COLUMN4=TRUE;Event name;0
+#COLUMN5=TRUE;User ID;0
+#COLUMN6=TRUE;T&A ID;0
+#COLUMN7=TRUE;Comment 1;0
+#COLUMN8=TRUE;Comment 2;0
+#COLUMN9=TRUE;Comment 3;0
+#COLUMN10=TRUE;Comment 4;0
+#COLUMN11=TRUE;User name;0
+#COLUMN12=TRUE;Access point ID;0
+#COLUMN13=TRUE;Access point name;0
+#COLUMN14=TRUE;Zone ID;0
+#COLUMN15=TRUE;Zone;0
+#COLUMN16=TRUE;Group ID;0
+#COLUMN17=TRUE;Group name;0
+#COLUMN18=TRUE;Event type;0
+#COLUMN19=TRUE;T&A mode code;0
+#COLUMN20=TRUE;T&A mode name;0
+#COLUMN21=TRUE;IN1 Option code;0
+#COLUMN22=TRUE;IN2 Option code;0
+#COLUMN23=TRUE;IN3 Option code;0
+#COLUMN24=TRUE;IN1 Message;0
+#COLUMN25=TRUE;IN2 Message;0
+#COLUMN26=TRUE;IN3 Message;0
+#COLUMN27=TRUE;T/A Mode;0
+#COLUMN28=TRUE;User GUID;0
+#COLUMN29=TRUE;T&A event parameter 1 code;0
+#COLUMN30=TRUE;T&A event parameter 1 name;0
+#COLUMN31=TRUE;T&A event parameter 2 code;0
+#COLUMN32=TRUE;T&A event parameter 2 name;0
+#COLUMN33=TRUE;Last Name;0
+#COLUMN34=TRUE;First Name;0
+#COLUMN35=TRUE;Card code (HEX);0
+#COLUMN36=TRUE;Card code (DEC);0
+#COLUMN37=TRUE;ReaderName_;0
+251303;2015-10-31;00:00:00;400;[400]: Clock synchronized;318767104;;;;;;Remote command;268435456;CPR;;;;;0;-1;;0;0;4;;;;-1;;;;;;;;;;;
+251306;2015-10-31;01:22:10;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+251309;2015-10-31;01:25:00;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+251312;2015-10-31;07:30:20;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+251315;2015-10-31;07:31:40;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+251318;2015-10-31;08:22:20;1;[001]: Access granted;179;;;;;;109 Paznic;1;II_Etaj_Center_input;0;2etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{094AAE01-7F13-4FC8-B830-70FC234F5C96};0;IN;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_input;
+251321;2015-10-31;08:23:10;1;[001]: Access granted;179;;;;;;109 Paznic;2;II_Etaj_back_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_back_output;
+251324;2015-10-31;08:24:20;44;[044]: Unknown card;407896064;;;;;;User unknown;1001;II_Etaj_Center_output;0;2etaj;;;1;-1;;1;2;0;;;;-1;;;;;;;;;;II_Etaj_Center_output;
+251327;2015-10-31;08:24:20;1;[001]: Access granted;179;;;;;;109 Paznic;1001;II_Etaj_Center_output;0;2etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{094AAE01-7F13-4FC8-B830-70FC234F5C96};1;OUT;0;PRIV;Paznic;109;02004F3573;8595125619;II_Etaj_Center_output;
+251330;2015-10-31;10:27:50;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};0;IN;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;I_Etaj_front_input;
+251333;2015-10-31;10:28:40;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};0;IN;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;I_Etaj_front_input;
+251336;2015-10-31;10:29:00;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;1008;I_Etaj_back_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};1;OUT;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;I_Etaj_back_output;
+251339;2015-10-31;10:29:10;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;7;I_Etaj_front_output;1;1etaj;1;All;0;16;Exit;1;2;0;;;;16;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};1;OUT;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;I_Etaj_front_output;
+251342;2015-10-31;10:29:50;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};0;IN;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;II_Etaj_Center_input;
+251345;2015-10-31;11:12:20;1;[001]: Access granted;225;;;;;;Marcel Nicolai 3;1001;II_Etaj_Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{6DE7C2DF-C718-4BC7-83C4-5965F38B455F};1;OUT;0;PRIV;3;Marcel Nicolai;041903F292;17599558290;II_Etaj_Center_output;
+251348;2015-10-31;11:21:10;1;[001]: Access granted;224;;;;;;Andrei Cotorobai 2;8;I_Etaj_back_input;1;1etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{25604A16-EC63-4904-9F0C-F9DAD9185ED3};0;IN;0;PRIV;2;Andrei Cotorobai;565A277E15;370879725077;I_Etaj_back_input;
+251351;2015-10-31;11:23:00;1;[001]: Access granted;224;;;;;;Andrei Cotorobai 2;1007;I_Etaj_front_input;1;1etaj;2;Enabled;0;0;Entry;1;2;0;;;;0;{25604A16-EC63-4904-9F0C-F9DAD9185ED3};0;IN;0;PRIV;2;Andrei Cotorobai;565A277E15;370879725077;I_Etaj_front_input;
+251354;2015-10-31;12:43:40;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};0;IN;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;I_Etaj_front_input;
+251357;2015-10-31;12:45:00;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};0;IN;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_input;
+251360;2015-10-31;13:54:10;1;[001]: Access granted;120;;;;;;Andrei Cotorobai 1;1008;I_Etaj_back_output;1;1etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{BEB27ACD-E4DD-4EA4-AB8E-7BA0E52D3157};1;OUT;0;PRIV;1;Andrei Cotorobai;510024A91B;347894753563;I_Etaj_back_output;
+251363;2015-10-31;13:54:20;1;[001]: Access granted;120;;;;;;Andrei Cotorobai 1;7;I_Etaj_front_output;1;1etaj;2;Enabled;0;16;Exit;1;2;0;;;;16;{BEB27ACD-E4DD-4EA4-AB8E-7BA0E52D3157};1;OUT;0;PRIV;1;Andrei Cotorobai;510024A91B;347894753563;I_Etaj_front_output;
+251366;2015-10-31;15:08:50;1;[001]: Access granted;231;;;;;;Vladislav Hincu 2;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{28396788-B0CF-4AA3-985F-5CA05B85DF3D};0;IN;0;PRIV;2;Vladislav Hincu;565A30128A;370880287370;I_Etaj_front_input;
+251369;2015-10-31;16:57:40;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1001;II_Etaj_Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};1;OUT;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_output;
+251372;2015-10-31;17:21:00;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};0;IN;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_input;
+251375;2015-10-31;17:55:30;1;[001]: Access granted;203;;;;;;Ion Munteanu 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{F6D9CA73-B7F4-4193-9A22-47E3A4A56296};0;IN;0;PRIV;1;Ion Munteanu;5100249BAA;347894750122;I_Etaj_front_input;
+251378;2015-10-31;18:09:10;1;[001]: Access granted;163;;;;;;Maria Pogonet 1;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{FFE6929F-F0E8-4B72-B69A-9543C6060542};0;IN;0;PRIV;1;Maria Pogonet;5100254AAC;347894794924;II_Etaj_Center_input;
+251381;2015-10-31;18:12:00;1;[001]: Access granted;163;;;;;;Maria Pogonet 1;1001;II_Etaj_Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{FFE6929F-F0E8-4B72-B69A-9543C6060542};1;OUT;0;PRIV;1;Maria Pogonet;5100254AAC;347894794924;II_Etaj_Center_output;
+251384;2015-10-31;20:38:00;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1001;II_Etaj_Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};1;OUT;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_output;
+251387;2015-10-31;20:39:10;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};0;IN;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_input;
+251390;2015-10-31;20:39:40;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1001;II_Etaj_Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};1;OUT;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_output;
+251393;2015-10-31;20:44:10;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1007;I_Etaj_front_input;1;1etaj;1;All;0;0;Entry;1;2;0;;;;0;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};0;IN;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;I_Etaj_front_input;
+251396;2015-10-31;20:46:30;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1;II_Etaj_Center_input;0;2etaj;1;All;0;0;Entry;1;2;0;;;;0;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};0;IN;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_input;
+251399;2015-10-31;20:46:50;1;[001]: Access granted;214;;;;;;Chiril Vasilita 1;1001;II_Etaj_Center_output;0;2etaj;1;All;0;16;Exit;1;2;0;;;;16;{723F6D45-1D8A-4EC9-A701-23E8528E7FE2};1;OUT;0;PRIV;1;Chiril Vasilita;51001A49F4;347894073844;II_Etaj_Center_output;
