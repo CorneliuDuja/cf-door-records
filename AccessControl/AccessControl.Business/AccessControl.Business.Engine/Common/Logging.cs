@@ -14,7 +14,7 @@ namespace AccessControl.Business.Engine.Common
 
         #region Property
 
-        private string ApplicationEventLogSource { get; set; }
+        private EventLog eventLog;
 
         #endregion Property
 
@@ -24,16 +24,27 @@ namespace AccessControl.Business.Engine.Common
 
         #region Method
 
-        public Logging(string applicationEventLogSource)
+        public Logging(string source, OverflowAction? overflowAction = null, int? retentionDays = null)
         {
-            ApplicationEventLogSource = applicationEventLogSource;
+            if (!string.IsNullOrEmpty(source))
+            {
+                eventLog = new EventLog
+                {
+                    Source = source
+                };
+                if (overflowAction.HasValue &&
+                    retentionDays.HasValue)
+                {
+                    eventLog.ModifyOverflowPolicy(overflowAction.Value, retentionDays.Value);
+                }
+            }
         }
 
         public void Error(string message, bool rethrow)
         {
-            if (string.IsNullOrEmpty(ApplicationEventLogSource) ||
+            if (eventLog == null ||
                 string.IsNullOrEmpty(message)) return;
-            EventLog.WriteEntry(ApplicationEventLogSource, message, EventLogEntryType.Error);
+            eventLog.WriteEntry(message, EventLogEntryType.Error);
             if (rethrow)
             {
                 throw new Exception(message);
@@ -62,19 +73,19 @@ namespace AccessControl.Business.Engine.Common
 
         public void Information(string message, params object[] parameters)
         {
-            if (!string.IsNullOrEmpty(ApplicationEventLogSource) &&
+            if (eventLog != null &&
                 !string.IsNullOrEmpty(message))
             {
-                EventLog.WriteEntry(ApplicationEventLogSource, string.Format(message, parameters), EventLogEntryType.Information);
+                eventLog.WriteEntry(string.Format(message, parameters), EventLogEntryType.Information);
             }
         }
 
-        public void Warning(string message)
+        public void Warning(string message, params object[] parameters)
         {
-            if (!string.IsNullOrEmpty(ApplicationEventLogSource) &&
+            if (eventLog != null &&
                 !string.IsNullOrEmpty(message))
             {
-                EventLog.WriteEntry(ApplicationEventLogSource, message, EventLogEntryType.Warning);
+                eventLog.WriteEntry(string.Format(message, parameters), EventLogEntryType.Warning);
             }
         }
 
